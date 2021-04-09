@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/Mobase-Auto-Tech-HomePage/static/css/main.4c753699.chunk.css",
+    "main.js": "/Mobase-Auto-Tech-HomePage/static/js/main.b5d8d45b.chunk.js",
+    "main.js.map": "/Mobase-Auto-Tech-HomePage/static/js/main.b5d8d45b.chunk.js.map",
+    "runtime-main.js": "/Mobase-Auto-Tech-HomePage/static/js/runtime-main.50593a5e.js",
+    "runtime-main.js.map": "/Mobase-Auto-Tech-HomePage/static/js/runtime-main.50593a5e.js.map",
+    "static/js/2.b9c9e338.chunk.js": "/Mobase-Auto-Tech-HomePage/static/js/2.b9c9e338.chunk.js",
+    "static/js/2.b9c9e338.chunk.js.map": "/Mobase-Auto-Tech-HomePage/static/js/2.b9c9e338.chunk.js.map",
+    "static/js/3.ecf35873.chunk.js": "/Mobase-Auto-Tech-HomePage/static/js/3.ecf35873.chunk.js",
+    "static/js/3.ecf35873.chunk.js.map": "/Mobase-Auto-Tech-HomePage/static/js/3.ecf35873.chunk.js.map",
+    "index.html": "/Mobase-Auto-Tech-HomePage/index.html",
+    "static/css/main.4c753699.chunk.css.map": "/Mobase-Auto-Tech-HomePage/static/css/main.4c753699.chunk.css.map",
+    "static/js/2.b9c9e338.chunk.js.LICENSE.txt": "/Mobase-Auto-Tech-HomePage/static/js/2.b9c9e338.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.50593a5e.js",
+    "static/js/2.b9c9e338.chunk.js",
+    "static/css/main.4c753699.chunk.css",
+    "static/js/main.b5d8d45b.chunk.js"
+  ]
+}
