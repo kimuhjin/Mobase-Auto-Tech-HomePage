@@ -20,7 +20,7 @@ function Contact() {
                     infoWindowOn={true}
                     level={5}/>}
                      {content ===2 &&<div className="contact-contact">
-                     <br/>
+                     
                      <br/>
                      담당자 : 김직재 <br/>
                      연락처 : 010-5817-0714 <br/>
