@@ -52,3 +52,50 @@ background-position: center;
 background-repeat: no-repeat;
 background-position: center;
 }
+.recruit-infomation{
+    width:715px;
+}
+.recruit-image-recruit1{
+    width:100%;
+    height:250px;
+    background-image: url("http://www.seoyonelec.com/images/sub/notice_img1.jpg");
+background-repeat: no-repeat;
+background-position: center;
+}
+
+.recruit-image-recruit2{
+    width:100%;
+    height:923px;
+    background-image: url("http://www.seoyonelec.com/images/sub/notice_img2.jpg");
+background-repeat: no-repeat;
+background-position: center;
+margin-bottom:50px;
+}
+.recruit-infomation-container{
+    width:100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.recruit-email-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:160px;
+    height:36px;
+    border:2px solid #18487e;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size:16px;
+    color: #18487e;
+    font-weight: bold;
+    margin-bottom: 35px;
+    text-decoration: none;
+}
+.recruit-email-btn:hover{
+    cursor: pointer;
+    background-color: #18487e;
+    color:white;
+    transition: all 0.2s ease-out;
+}
