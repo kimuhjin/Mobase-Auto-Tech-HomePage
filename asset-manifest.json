@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/Mobase-Auto-Tech-HomePage/static/css/main.6d3c2412.chunk.css",
-    "main.js": "/Mobase-Auto-Tech-HomePage/static/js/main.cb7a4bfb.chunk.js",
-    "main.js.map": "/Mobase-Auto-Tech-HomePage/static/js/main.cb7a4bfb.chunk.js.map",
-    "runtime-main.js": "/Mobase-Auto-Tech-HomePage/static/js/runtime-main.2698ccbf.js",
-    "runtime-main.js.map": "/Mobase-Auto-Tech-HomePage/static/js/runtime-main.2698ccbf.js.map",
+    "main.css": "/Mobase-Auto-Tech-HomePage/static/css/main.b5c44f45.chunk.css",
+    "main.js": "/Mobase-Auto-Tech-HomePage/static/js/main.be98695f.chunk.js",
+    "main.js.map": "/Mobase-Auto-Tech-HomePage/static/js/main.be98695f.chunk.js.map",
+    "runtime-main.js": "/Mobase-Auto-Tech-HomePage/static/js/runtime-main.8a6a9199.js",
+    "runtime-main.js.map": "/Mobase-Auto-Tech-HomePage/static/js/runtime-main.8a6a9199.js.map",
     "static/js/2.da50436f.chunk.js": "/Mobase-Auto-Tech-HomePage/static/js/2.da50436f.chunk.js",
     "static/js/2.da50436f.chunk.js.map": "/Mobase-Auto-Tech-HomePage/static/js/2.da50436f.chunk.js.map",
-    "static/js/3.57c1e4ae.chunk.js": "/Mobase-Auto-Tech-HomePage/static/js/3.57c1e4ae.chunk.js",
-    "static/js/3.57c1e4ae.chunk.js.map": "/Mobase-Auto-Tech-HomePage/static/js/3.57c1e4ae.chunk.js.map",
+    "static/js/3.8a19826f.chunk.js": "/Mobase-Auto-Tech-HomePage/static/js/3.8a19826f.chunk.js",
+    "static/js/3.8a19826f.chunk.js.map": "/Mobase-Auto-Tech-HomePage/static/js/3.8a19826f.chunk.js.map",
     "index.html": "/Mobase-Auto-Tech-HomePage/index.html",
-    "static/css/main.6d3c2412.chunk.css.map": "/Mobase-Auto-Tech-HomePage/static/css/main.6d3c2412.chunk.css.map",
+    "static/css/main.b5c44f45.chunk.css.map": "/Mobase-Auto-Tech-HomePage/static/css/main.b5c44f45.chunk.css.map",
     "static/js/2.da50436f.chunk.js.LICENSE.txt": "/Mobase-Auto-Tech-HomePage/static/js/2.da50436f.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.2698ccbf.js",
+    "static/js/runtime-main.8a6a9199.js",
     "static/js/2.da50436f.chunk.js",
-    "static/css/main.6d3c2412.chunk.css",
-    "static/js/main.cb7a4bfb.chunk.js"
+    "static/css/main.b5c44f45.chunk.css",
+    "static/js/main.be98695f.chunk.js"
   ]
 }
