@@ -6,7 +6,8 @@ import Recruit from "./Sections/Recruit/Recruit.jsx"
 function MainPage() {
   return (
     <div className="main-page-container">
-    <div className="main-page-banner"/>
+    <div className="main-page-banner1"/>
+    <div className="main-page-banner2"/>
     
 <div className="main-page-section" id="company-section">
 <Company/>

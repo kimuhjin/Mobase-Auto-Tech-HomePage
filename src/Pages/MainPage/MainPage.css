@@ -16,11 +16,18 @@ justify-content: center;
 align-items: center;
 font-size:48px;
 }
-.main-page-banner{
-    margin-top:40px;
+.main-page-banner1{
     width:100%;
     height:367px;
     background-image: url("http://www.seoyonelec.com/data/file/visual/thumb-3717484827_eAV8as5o_25b8a42b61a70bf5d0cb8a7e6099feed4870ea89_1920x367.jpg");
+background-repeat: no-repeat;
+background-position: center;
+}
+.main-page-banner2{
+    margin-bottom:40px;
+    width:100%;
+    height:367px;
+    background-image: url("http://www.seoyonelec.com/data/file/visual/thumb-3717484827_vDQS6nsz_763ecfd0523f5708a8399922a7270a08529784b1_1920x367.jpg");
 background-repeat: no-repeat;
 background-position: center;
 }

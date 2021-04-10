@@ -9,11 +9,11 @@
 }
 .product-sub-header{
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     align-items:  center;
-    width: 100%;
+    width: 710px;
     height: 80px;
-    padding:20px;
+    padding:20px 0px;
     border-bottom:1px solid lightgray;
     box-sizing: border-box;
     margin-bottom: 20px;
