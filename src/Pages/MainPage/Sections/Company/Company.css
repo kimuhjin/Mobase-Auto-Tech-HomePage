@@ -41,14 +41,14 @@ background-color: none;
 .company-image-1{
     width:100%;
     height:900px;
-    background-image: url("http://www.seoyonelec.com/images/sub/group_img.jpg");
+    background-image: url(../../../../asset/image/vision.jpg);
 background-repeat: no-repeat;
 background-position: center;
 }
 .company-image-2{
     width:100%;
     height:2800px;
-    background-image: url("http://www.seoyonelec.com/images/sub/area_img.jpg");
+    background-image: url(../../../../asset/image/area.jpg);
 background-repeat: no-repeat;
 background-position: center;
 }

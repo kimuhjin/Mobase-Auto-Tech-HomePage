@@ -40,15 +40,15 @@ background-color: none;
 
 .recruit-image-1{
     width:100%;
-    height:1200px;
-    background-image: url("http://www.seoyonelec.com/images/sub/status_img.jpg");
+    height:1130px;
+    background-image: url(../../../../asset/image/status_img.jpg);
 background-repeat: no-repeat;
 background-position: center;
 }
 .recruit-image-2{
     width:100%;
-    height:1980px;
-    background-image: url("http://www.seoyonelec.com/images/sub/resource_img.jpg");
+    height:1900px;
+    background-image: url(../../../../asset/image/resource_img.jpg);
 background-repeat: no-repeat;
 background-position: center;
 }
@@ -58,7 +58,7 @@ background-position: center;
 .recruit-image-recruit1{
     width:100%;
     height:250px;
-    background-image: url("http://www.seoyonelec.com/images/sub/notice_img1.jpg");
+    background-image: url(../../../../asset/image/notice_img1.jpg);
 background-repeat: no-repeat;
 background-position: center;
 }
@@ -66,7 +66,7 @@ background-position: center;
 .recruit-image-recruit2{
     width:100%;
     height:923px;
-    background-image: url("http://www.seoyonelec.com/images/sub/notice_img2.jpg");
+    background-image: url(../../../../asset/image/notice_img2.jpg);
 background-repeat: no-repeat;
 background-position: center;
 margin-bottom:50px;

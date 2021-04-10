@@ -36,14 +36,19 @@ function Header() {
 
      }
 
-
+// 회사 소개
+// 제품 소개
+// 품질 및 연구 개발
+// 인재 육성 (채용 안내)
+// 찾아오는 길
   return (
     <div className="header-container">
       <img className="logo" src={logo} alt="MOBASE AUTO TECH Logo"/>
       <div className="menu-container">
       <div className={`menu ${clicked==="company" ?"clicked":""}`} id="company" onClick={handleScrollTo}>회사 소개</div>
-      <div className={`menu ${clicked==="product" ?"clicked":""}`} id="product" onClick={handleScrollTo}>제품</div>
-      <div className={`menu ${clicked==="recruit" ?"clicked":""}`} id="recruit" onClick={handleScrollTo}>인재경영</div>
+      <div className={`menu ${clicked==="product" ?"clicked":""}`} id="product" onClick={handleScrollTo}>제품 소개</div>
+      <div className={`menu ${clicked==="recruit" ?"clicked":""}`} id="recruit" onClick={handleScrollTo}>채용 안내</div>
+      <div className={`menu ${clicked==="contact" ?"clicked":""}`} id="contact" onClick={handleScrollTo}>찾아오는 길</div>
       </div>
     </div>
   );

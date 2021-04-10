@@ -1,13 +1,13 @@
-.product-container{
+.contact-container{
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
     width:100%;
-    
+    margin-bottom:100px;
     
 }
-.product-sub-header{
+.contact-sub-header{
     display: flex;
     justify-content: flex-start;
     align-items:  center;
@@ -18,37 +18,30 @@
     box-sizing: border-box;
     margin-bottom: 20px;
 }
-.product-sub-header-menu{
+.contact-sub-header-menu{
     font-size: 18px;
     padding:20px 0px;
     margin-right:40px;
     box-sizing: border-box;
     cursor: pointer;
 }
-.product-sub-header-menu:last-child{
+.contact-sub-header-menu:last-child{
     margin:0px;
 }
 
-.product-contents{
+.contact-contents{
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
 width:100%;
-min-height:800px;
+min-height:300px;
 background-color: none;
 }
+.contact-contact{
+    width: 710px;
+    height: 500px;
+    justify-content: flex-start;
+    align-items: flex-start;
+    font-size:16px;
 
-.product-image-1{
-    width:100%;
-    height:850px;
-    background-image: url(../../../../asset/image/ldc.jpeg);
-background-repeat: no-repeat;
-background-position: center;
-}
-.product-image-2{
-    width:100%;
-    height:850px;
-    background-image: url(../../../../asset/image/dc-dc.jpeg);
-background-repeat: no-repeat;
-background-position: center;
 }
