@@ -5,22 +5,19 @@ function Recruit() {
   return (
     <div className="recruit-container">
     <div className="recruit-sub-header">
-             <div className={`recruit-sub-header-menu ${content===3 ?"clicked":""}`} onClick={()=>setContent(3)}>
+             <div className={`recruit-sub-header-menu ${content===1 ?"clicked":""}`} onClick={()=>setContent(1)}>
  지원하기
     </div>
-    <div className={`recruit-sub-header-menu ${content===1 ?"clicked":""}`} onClick={()=>setContent(1)}>
+    <div className={`recruit-sub-header-menu ${content===2 ?"clicked":""}`} onClick={()=>setContent(2)}>
  인재상
     </div>
-     <div className={`recruit-sub-header-menu ${content===2 ?"clicked":""}`} onClick={()=>setContent(2)}>
+     <div className={`recruit-sub-header-menu ${content===3 ?"clicked":""}`} onClick={()=>setContent(3)}>
  인재육성
     </div>
 
     </div>
     <div className="recruit-contents">
-      {content ===1 &&<div className="recruit-image-1"/>}
-      {content ===2 &&<div className="recruit-image-2"/>}
-      {content ===3 &&(
-      <>
+      {content ===1 &&    <>
       <div className="recruit-infomation-container">
       <div className="recruit-image-recruit1"/>
       <div className="recruit-infomation">
@@ -30,7 +27,10 @@ function Recruit() {
       </div>
       <div className="recruit-image-recruit2"/>
       </div>
-      </>
+      </>}
+      {content ===2 &&<div className="recruit-image-1"/>}
+      {content ===3 &&(
+ <div className="recruit-image-2"/> 
       )}
      </div>
     </div>
