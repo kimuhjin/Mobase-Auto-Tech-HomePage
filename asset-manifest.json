@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/Mobase-Auto-Tech-HomePage/static/css/main.f4bc815c.chunk.css",
-    "main.js": "/Mobase-Auto-Tech-HomePage/static/js/main.428d0697.chunk.js",
-    "main.js.map": "/Mobase-Auto-Tech-HomePage/static/js/main.428d0697.chunk.js.map",
+    "main.js": "/Mobase-Auto-Tech-HomePage/static/js/main.6acaae8b.chunk.js",
+    "main.js.map": "/Mobase-Auto-Tech-HomePage/static/js/main.6acaae8b.chunk.js.map",
     "runtime-main.js": "/Mobase-Auto-Tech-HomePage/static/js/runtime-main.13c4c818.js",
     "runtime-main.js.map": "/Mobase-Auto-Tech-HomePage/static/js/runtime-main.13c4c818.js.map",
     "static/js/2.42fdeafc.chunk.js": "/Mobase-Auto-Tech-HomePage/static/js/2.42fdeafc.chunk.js",
@@ -21,6 +21,6 @@
     "static/js/runtime-main.13c4c818.js",
     "static/js/2.42fdeafc.chunk.js",
     "static/css/main.f4bc815c.chunk.css",
-    "static/js/main.428d0697.chunk.js"
+    "static/js/main.6acaae8b.chunk.js"
   ]
 }
