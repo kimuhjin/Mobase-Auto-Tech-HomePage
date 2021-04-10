@@ -1,12 +1,12 @@
 import './Header.css';
-
+import logo from "../../asset/image/logo.png"
 function Header() {
   return (
     <div className="header-container">
-      <div className="logo">Mobase Auto-Tech</div>
+      <img className="logo" src={logo} alt="MOBASE AUTO TECH Logo"/>
       <div className="menu-container">
-      <div className="menu">COMPANY</div>
-      <div className="menu">PRODUCT</div>
+      <div className="menu">Company</div>
+      <div className="menu">Product</div>
       <div className="menu">R&BD</div>
       <div className="menu">IR</div>
       </div>
