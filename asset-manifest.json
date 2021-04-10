@@ -1,22 +1,26 @@
 {
   "files": {
-    "main.css": "/Mobase-Auto-Tech-HomePage/static/css/main.91283ed3.chunk.css",
-    "main.js": "/Mobase-Auto-Tech-HomePage/static/js/main.c8f080b5.chunk.js",
-    "main.js.map": "/Mobase-Auto-Tech-HomePage/static/js/main.c8f080b5.chunk.js.map",
-    "runtime-main.js": "/Mobase-Auto-Tech-HomePage/static/js/runtime-main.6801794e.js",
-    "runtime-main.js.map": "/Mobase-Auto-Tech-HomePage/static/js/runtime-main.6801794e.js.map",
+    "main.css": "/Mobase-Auto-Tech-HomePage/static/css/main.4b49d544.chunk.css",
+    "main.js": "/Mobase-Auto-Tech-HomePage/static/js/main.a3991863.chunk.js",
+    "main.js.map": "/Mobase-Auto-Tech-HomePage/static/js/main.a3991863.chunk.js.map",
+    "runtime-main.js": "/Mobase-Auto-Tech-HomePage/static/js/runtime-main.13c4c818.js",
+    "runtime-main.js.map": "/Mobase-Auto-Tech-HomePage/static/js/runtime-main.13c4c818.js.map",
     "static/js/2.42fdeafc.chunk.js": "/Mobase-Auto-Tech-HomePage/static/js/2.42fdeafc.chunk.js",
     "static/js/2.42fdeafc.chunk.js.map": "/Mobase-Auto-Tech-HomePage/static/js/2.42fdeafc.chunk.js.map",
-    "static/js/3.73d6215c.chunk.js": "/Mobase-Auto-Tech-HomePage/static/js/3.73d6215c.chunk.js",
-    "static/js/3.73d6215c.chunk.js.map": "/Mobase-Auto-Tech-HomePage/static/js/3.73d6215c.chunk.js.map",
+    "static/js/3.1facd836.chunk.js": "/Mobase-Auto-Tech-HomePage/static/js/3.1facd836.chunk.js",
+    "static/js/3.1facd836.chunk.js.map": "/Mobase-Auto-Tech-HomePage/static/js/3.1facd836.chunk.js.map",
     "index.html": "/Mobase-Auto-Tech-HomePage/index.html",
-    "static/css/main.91283ed3.chunk.css.map": "/Mobase-Auto-Tech-HomePage/static/css/main.91283ed3.chunk.css.map",
-    "static/js/2.42fdeafc.chunk.js.LICENSE.txt": "/Mobase-Auto-Tech-HomePage/static/js/2.42fdeafc.chunk.js.LICENSE.txt"
+    "static/css/main.4b49d544.chunk.css.map": "/Mobase-Auto-Tech-HomePage/static/css/main.4b49d544.chunk.css.map",
+    "static/js/2.42fdeafc.chunk.js.LICENSE.txt": "/Mobase-Auto-Tech-HomePage/static/js/2.42fdeafc.chunk.js.LICENSE.txt",
+    "static/media/Company.css": "/Mobase-Auto-Tech-HomePage/static/media/vision.8a24c051.jpg",
+    "static/media/MainPage.css": "/Mobase-Auto-Tech-HomePage/static/media/banner-2.d66421f5.jpeg",
+    "static/media/Product.css": "/Mobase-Auto-Tech-HomePage/static/media/ldc.f8444c7a.jpeg",
+    "static/media/Recruit.css": "/Mobase-Auto-Tech-HomePage/static/media/status_img.2d46bb2d.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.6801794e.js",
+    "static/js/runtime-main.13c4c818.js",
     "static/js/2.42fdeafc.chunk.js",
-    "static/css/main.91283ed3.chunk.css",
-    "static/js/main.c8f080b5.chunk.js"
+    "static/css/main.4b49d544.chunk.css",
+    "static/js/main.a3991863.chunk.js"
   ]
 }
