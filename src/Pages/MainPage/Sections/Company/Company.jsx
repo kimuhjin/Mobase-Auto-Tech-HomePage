@@ -5,19 +5,16 @@ function Company() {
   return (
     <div className="company-container">
     <div className="company-sub-header">
-    <div className="company-sub-header-menu" onClick={()=>setContent(1)}>
-    Company menu 1
+    <div className={`company-sub-header-menu ${content===1 ?"clicked":""}`} onClick={()=>setContent(1)}>
+ Vision
     </div>
-     <div className="company-sub-header-menu" onClick={()=>setContent(2)}>
-    Company menu 2
-    </div>
-     <div className="company-sub-header-menu" onClick={()=>setContent(3)}>
-    Company menu 3
+     <div className={`company-sub-header-menu ${content===2 ?"clicked":""}`} onClick={()=>setContent(2)}>
+   사업영역
     </div>
     </div>
     <div className="company-contents">
-     {content ===1 &&("Company content 1")}
-     {content ===2 &&("Company content 2")}
+     {content ===1 &&<div className="company-image-1"></div>}
+        {content ===2 &&<div className="company-image-2"></div>}
      {content ===3 &&("Company content 3")}
      </div>
     </div>

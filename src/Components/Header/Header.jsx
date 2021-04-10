@@ -25,9 +25,9 @@ function Header() {
     <div className="header-container">
       <img className="logo" src={logo} alt="MOBASE AUTO TECH Logo"/>
       <div className="menu-container">
-      <div className="menu" id="company" onClick={handleScrollTo}>Company</div>
-      <div className="menu" id="product" onClick={handleScrollTo}>Product</div>
-      <div className="menu" id="rnbd" onClick={handleScrollTo}>R&BD</div>
+      <div className="menu" id="company" onClick={handleScrollTo}>회사 소개</div>
+      <div className="menu" id="product" onClick={handleScrollTo}>제품</div>
+      <div className="menu" id="recruit" onClick={handleScrollTo}>인재경영</div>
       </div>
     </div>
   );

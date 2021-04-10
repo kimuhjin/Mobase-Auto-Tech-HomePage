@@ -5,19 +5,16 @@ function Product() {
   return (
     <div className="product-container">
     <div className="product-sub-header">
-    <div className="product-sub-header-menu" onClick={()=>setContent(1)}>
-    Product menu 1
+    <div className={`product-sub-header-menu ${content===1 ?"clicked":""}`} onClick={()=>setContent(1)}>
+ LDC
     </div>
-     <div className="product-sub-header-menu" onClick={()=>setContent(2)}>
-    Product menu 2
-    </div>
-     <div className="product-sub-header-menu" onClick={()=>setContent(3)}>
-    Product menu 3
+     <div className={`product-sub-header-menu ${content===2 ?"clicked":""}`} onClick={()=>setContent(2)}>
+   DC-DC Converter
     </div>
     </div>
     <div className="product-contents">
-     {content ===1 &&("Product content 1")}
-     {content ===2 &&("Product content 2")}
+      {content ===1 &&<div className="product-image-1"></div>}
+      {content ===2 &&<div className="product-image-2"></div>}
      {content ===3 &&("Product content 3")}
      </div>
     </div>

@@ -2,17 +2,25 @@
     display: flex;
     flex-direction: column;
     width:100%;
-    border:4px solid red;
+    /* border:4px solid red; */
     box-sizing: border-box;
 }
 .main-page-section{
     width:100%;
     min-height:700px;
     padding:40px 120px;
-    border:4px solid blue;
+    /* border:4px solid blue; */
     box-sizing: border-box;
 display: flex;
 justify-content: center;
 align-items: center;
 font-size:48px;
+}
+.main-page-banner{
+    margin-top:40px;
+    width:100%;
+    height:367px;
+    background-image: url("http://www.seoyonelec.com/data/file/visual/thumb-3717484827_eAV8as5o_25b8a42b61a70bf5d0cb8a7e6099feed4870ea89_1920x367.jpg");
+background-repeat: no-repeat;
+background-position: center;
 }
