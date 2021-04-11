@@ -1,4 +1,4 @@
-.contact-container {
+.rnd-container {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
@@ -6,7 +6,7 @@
   width: 100%;
   margin-bottom: 100px;
 }
-.contact-sub-header {
+.rnd-sub-header {
   display: flex;
   justify-content: flex-start;
   align-items: center;
@@ -18,7 +18,7 @@
   margin-bottom: 50px;
   background-color: rgba(243, 242, 242, 0);
 }
-.contact-sub-header-menu {
+.rnd-sub-header-menu {
   font-size: 16px;
   height: 40px;
   padding: 0px 10px 5px;
@@ -26,22 +26,15 @@
   box-sizing: border-box;
   cursor: pointer;
 }
-.contact-sub-header-menu:last-child {
+.rnd-sub-header-menu:last-child {
   margin: 0px;
 }
 
-.contact-contents {
+.rnd-contents {
   display: flex;
   justify-content: center;
   align-items: flex-start;
   width: 100%;
   min-height: 300px;
   background-color: none;
-}
-.contact-contact {
-  width: 710px;
-  height: 500px;
-  justify-content: flex-start;
-  align-items: flex-start;
-  font-size: 14px;
 }

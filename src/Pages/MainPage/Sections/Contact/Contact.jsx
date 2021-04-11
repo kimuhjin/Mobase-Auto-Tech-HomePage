@@ -12,16 +12,8 @@ function Contact() {
           }`}
           onClick={() => setContent(1)}
         >
-          위치
+          사업장
         </div>
-        {/* <div
-          className={`contact-sub-header-menu ${
-            content === 2 ? "clicked" : ""
-          }`}
-          onClick={() => setContent(2)}
-        >
-          연락처
-        </div> */}
       </div>
       <div className="contact-contents">
         {content === 1 && (
@@ -32,14 +24,6 @@ function Contact() {
             infoWindowOn={true}
             level={5}
           />
-        )}
-        {content === 2 && (
-          <div className="contact-contact">
-            <br />
-            담당자 : 김직재 <br />
-            연락처 : 010-5817-0714 <br />
-            이메일 : jjkim@sccc.kr
-          </div>
         )}
       </div>
     </div>

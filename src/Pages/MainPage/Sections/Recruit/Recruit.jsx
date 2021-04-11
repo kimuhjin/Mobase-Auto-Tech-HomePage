@@ -3,7 +3,7 @@ import React, { useState } from "react";
 import { AiOutlineRight } from "react-icons/ai";
 
 function Recruit() {
-  const [content, setContent] = useState(1);
+  const [content, setContent] = useState(5);
   const recruitList = [
     {
       id: 1,
@@ -29,7 +29,7 @@ function Recruit() {
           }`}
           onClick={() => setContent(1)}
         >
-          지원하기
+          인재상
         </div>
         <div
           className={`recruit-sub-header-menu ${
@@ -37,7 +37,7 @@ function Recruit() {
           }`}
           onClick={() => setContent(2)}
         >
-          인재상
+          인재육성
         </div>
         <div
           className={`recruit-sub-header-menu ${
@@ -45,11 +45,27 @@ function Recruit() {
           }`}
           onClick={() => setContent(3)}
         >
-          인재육성
+          복리후생
+        </div>
+        <div
+          className={`recruit-sub-header-menu ${
+            content === 4 ? "clicked" : ""
+          }`}
+          onClick={() => setContent(4)}
+        >
+          직무소개
+        </div>
+        <div
+          className={`recruit-sub-header-menu ${
+            content === 5 ? "clicked" : ""
+          }`}
+          onClick={() => setContent(5)}
+        >
+          채용공고
         </div>
       </div>
       <div className="recruit-contents">
-        {content === 1 && (
+        {content === 5 && (
           <>
             <div className="recruit-infomation-container">
               <div className="recruit-infomation-main-title">
