@@ -36,7 +36,7 @@ function Rnd() {
             </div>
             <div className="rnd-center-sub-title-line" />
             <div className="rnd-center-article-title">
-              저희 모베이스 오토테크는 활발한 R&D투바와 최고의 교육과정으로
+              저희 모베이스 오토테크는 활발한 R&D투자와 최고의 교육과정으로
               연구인재를 육성하고 있습니다.
               <br />
               <br />
