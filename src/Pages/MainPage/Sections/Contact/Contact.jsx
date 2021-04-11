@@ -1,6 +1,10 @@
 import "./Contact.css";
 import React, { useState } from "react";
 import KakaoMap from "../../../../Components/KakaoMap/KakaoMap";
+import { MdLocationOn } from "react-icons/md";
+import { MdPhone } from "react-icons/md";
+import { FaFax } from "react-icons/fa";
+
 function Contact() {
   const [content, setContent] = useState(1);
   return (
@@ -26,11 +30,19 @@ function Contact() {
               level={5}
             />
             <div className="contact-box">
-              주소 : 경기 화성시 동탄첨단산업1로73
-              <br />
-              전화 : 032-500-5874
-              <br />
-              팩스 : 032-500-5989
+              <div className="contact-box-infomation">
+                <div className="contact-box-contents">
+                  <MdLocationOn className="contact-box-icon" />
+                  주소 : 경기 화성시 동탄첨단산업1로73
+                </div>
+                <div className="contact-box-contents">
+                  <MdPhone className="contact-box-icon" /> 전화 : 032-500-5874
+                </div>
+                <div className="contact-box-contents">
+                  <FaFax className="contact-box-icon-s" /> 팩스 : 032-500-5989
+                </div>
+              </div>
+              <div className="contact-box-infomation-image" />
             </div>
           </div>
         )}

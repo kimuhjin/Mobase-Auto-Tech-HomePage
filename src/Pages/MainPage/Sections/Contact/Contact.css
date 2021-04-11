@@ -46,16 +46,45 @@
   font-size: 14px;
 }
 .contact-box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
   margin-top: 20px;
   width: 710px;
-  padding: 10px 15px;
+  padding: 15px 20px;
   box-sizing: border-box;
   background-color: #f8f8f8;
-  font-size: 13px;
-  line-height: 1.8;
 }
 .contact-contents-container {
   width: 710px;
   display: flex;
   flex-direction: column;
+}
+.contact-box-infomation {
+  font-size: 13px;
+  line-height: 1.8;
+}
+.contact-box-infomation-image {
+  width: 253px;
+  height: 132px;
+  background-image: url(../../../../asset/image/company-pic.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100% auto;
+}
+.contact-box-contents {
+  width: 300px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.contact-box-icon {
+  font-size: 15px;
+  color: #363686;
+  margin-right: 8px;
+}
+.contact-box-icon-s {
+  font-size: 13px;
+  color: #363686;
+  margin-right: 8px;
 }

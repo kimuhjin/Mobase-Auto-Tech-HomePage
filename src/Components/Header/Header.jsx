@@ -27,10 +27,17 @@ function Header() {
       document.getElementById(locationName) !== null
         ? document.getElementById(locationName).offsetTop
         : 0;
-    window.scrollTo({
-      top: location - menuHeight,
-      behavior: "smooth",
-    });
+    if (e.target.id === "main") {
+      window.scrollTo({
+        top: 0,
+        behavior: "smooth",
+      });
+    } else {
+      window.scrollTo({
+        top: location - menuHeight,
+        behavior: "smooth",
+      });
+    }
   }
 
   // 회사 소개
@@ -43,6 +50,13 @@ function Header() {
       <div className="header-container">
         <img className="logo" src={logo} alt="MOBASE AUTO TECH Logo" />
         <div className="menu-container">
+          <div
+            className={`menu ${clicked === "main" ? "clicked" : ""}`}
+            id="main"
+            onClick={handleScrollTo}
+          >
+            메인
+          </div>
           <div
             className={`menu ${clicked === "company" ? "clicked" : ""}`}
             id="company"
