@@ -129,3 +129,69 @@ background-position: center;
   color: #4e4e4e;
   font-weight: 500;
 }
+
+.company-certification-container {
+  width: 710px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.company-certification-box {
+  width: 220px;
+  height: 310px;
+  border: 1px solid #e0e0e0;
+  box-sizing: border-box;
+  margin-bottom: 70px;
+}
+.company-certification-image {
+  width: 220px;
+  height: 310px;
+}
+.company-certification-title {
+  margin-top: 5px;
+  text-align: center;
+  font-size: 14px;
+  font-weight: 500;
+}
+.company-certification-date {
+  margin-top: 3px;
+  text-align: center;
+  font-size: 14px;
+}
+.company-business-area-container {
+  width: 710px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+.company-business-area-contents {
+  margin-top: 20px;
+  font-size: 13px;
+}
+.company-business-area-title {
+  font-size: 20px;
+  font-weight: 500;
+  color: #363686;
+  margin-bottom: 24px;
+}
+.company-business-area-image {
+  width: 710px;
+  height: 197px;
+  border: 1px solid #f9f9f9;
+}
+
+.company-business-area-contents-dashed-line {
+  margin: 20px 0px;
+  border-bottom: 1px dashed #e0e0e0;
+  box-sizing: border-box;
+}
+
+.company-business-area-contents-line {
+  margin: 20px 0px 40px;
+  width: 100%;
+  box-sizing: border-box;
+  border-bottom: 1px solid #f5f4f4;
+}

@@ -162,7 +162,7 @@ function Recruit() {
                 <div className="recruit-infomation-flex-article">
                   · 4년제 정규대학 기졸업자 및 졸업 예정자
                   <br />
-                  · 마귝, 일본, 중국, 유럽, 호주 등 지역에서 3년 이상 거주자
+                  · 미국, 일본, 중국, 유럽, 호주 등 지역에서 3년 이상 거주자
                   우대
                   <br />
                   · 영어, 일어, 중국어, 비즈니스 회화 가능자 우대
