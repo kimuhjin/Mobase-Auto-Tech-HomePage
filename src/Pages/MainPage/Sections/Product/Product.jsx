@@ -86,7 +86,7 @@ function Product() {
           <div className="product-introduce-container">
             <div className="product-introduce-name-bar" />
             <div className="product-introduce-name">
-              ELECTRONICS STEERING COLUMN LOCK
+              Electronics Steering Column Lock
             </div>
             <div className="product-introduce-title">
               <BiRadioCircle className="product-introduce-title-icon" /> 제품
@@ -120,7 +120,7 @@ function Product() {
             </div>
             <div className="product-introduce-margin-bottom" />
             <div className="product-introduce-name-bar" />
-            <div className="product-introduce-name">FOLDING KEY</div>
+            <div className="product-introduce-name">Folding Key</div>
             <div className="product-introduce-title">
               <BiRadioCircle className="product-introduce-title-icon" /> 제품
               사진

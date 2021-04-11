@@ -7,21 +7,25 @@
 }
 .clicked {
   color: #363686;
+  border-bottom: 2px solid #363686;
+  box-sizing: border-box;
 }
 .company-sub-header {
   display: flex;
   justify-content: flex-start;
   align-items: center;
   width: 710px;
-  height: 80px;
-  padding: 20px 0px;
+  height: 40px;
+  padding: 5px 0px;
   border-bottom: 1px solid lightgray;
   box-sizing: border-box;
-  margin-bottom: 20px;
+  margin-bottom: 50px;
+  background-color: rgba(243, 242, 242, 0);
 }
 .company-sub-header-menu {
   font-size: 18px;
-  padding: 20px 0px;
+  height: 40px;
+  padding: 0px 10px 5px;
   margin-right: 40px;
   box-sizing: border-box;
   cursor: pointer;
