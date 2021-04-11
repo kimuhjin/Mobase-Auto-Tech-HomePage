@@ -1,6 +1,12 @@
 import "./Company.css";
-
 import React, { useState } from "react";
+import { GoLaw } from "react-icons/go";
+import { IoIosPeople } from "react-icons/io";
+import { FaHandHoldingHeart } from "react-icons/fa";
+import { FaRegHandshake } from "react-icons/fa";
+import { GrGroup } from "react-icons/gr";
+import { RiUserStarLine } from "react-icons/ri";
+
 function Company() {
   const [content, setContent] = useState(1);
 
@@ -55,17 +61,23 @@ function Company() {
               <div className="company-vision-title">◼ 경영이념</div>
               <div className="company-vision-contents">
                 <div className="company-vision-contents-box">
-                  <div className="company-vision-contents-icon" />
+                  <div className="company-vision-contents-icon">
+                    <GoLaw className="company-vision-icon" />
+                  </div>
                   <div className="company-vision-contents-text">
                     공정한 사회
                   </div>
                 </div>
                 <div className="company-vision-contents-box">
-                  <div className="company-vision-contents-icon" />
+                  <div className="company-vision-contents-icon">
+                    <IoIosPeople className="company-vision-icon" />
+                  </div>
                   <div className="company-vision-contents-text">가족 중심</div>
                 </div>
                 <div className="company-vision-contents-box">
-                  <div className="company-vision-contents-icon" />
+                  <div className="company-vision-contents-icon">
+                    <FaHandHoldingHeart className="company-vision-icon" />
+                  </div>
                   <div className="company-vision-contents-text">사회 기여</div>
                 </div>
               </div>
@@ -84,15 +96,21 @@ function Company() {
               <div className="company-vision-title">◼ 사훈</div>
               <div className="company-vision-contents">
                 <div className="company-vision-contents-box">
-                  <div className="company-vision-contents-icon" />
+                  <div className="company-vision-contents-icon">
+                    <FaRegHandshake className="company-vision-icon" />
+                  </div>
                   <div className="company-vision-contents-text">상호존중</div>
                 </div>
                 <div className="company-vision-contents-box">
-                  <div className="company-vision-contents-icon" />
+                  <div className="company-vision-contents-icon">
+                    <GrGroup className="company-vision-icon" />
+                  </div>
                   <div className="company-vision-contents-text">인화단결</div>
                 </div>
                 <div className="company-vision-contents-box">
-                  <div className="company-vision-contents-icon" />
+                  <div className="company-vision-contents-icon">
+                    <RiUserStarLine className="company-vision-icon" />
+                  </div>
                   <div className="company-vision-contents-text">고객감동</div>
                 </div>
               </div>
