@@ -73,11 +73,11 @@ function Company() {
             <div className="company-vision-container">
               <div className="company-vision-title">◼ 행동강령</div>
               <div className="company-vision-contents">
-                <p className="company-vision-contents-article">
+                <div className="company-vision-contents-article">
                   - 창의와 열정으로 서로 소통하고 화합하여 최고의 제품과
                   서비스를 창출하여 인류사회에 공헌하자
                   <br />- 새로운 생각, 뜨거운 열정, 당당한 자세, 확고한 신념
-                </p>
+                </div>
               </div>
             </div>
             <div className="company-vision-container">
