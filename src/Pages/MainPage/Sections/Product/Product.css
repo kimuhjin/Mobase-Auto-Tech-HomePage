@@ -90,6 +90,7 @@ background-position: center;
   height: 372px;
   border: 1px solid #f9f9f9;
   box-sizing: border-box;
+  background-color: #fff;
 }
 .product-introduce-image-flex {
   display: flex;
@@ -108,6 +109,7 @@ background-position: center;
   height: 165px;
   border: 1px solid #f9f9f9;
   box-sizing: border-box;
+  background-color: #fff;
 }
 .product-image {
   width: 100%;

@@ -22,7 +22,7 @@ function Header() {
   function handleScrollTo(e) {
     setClicked(e.target.id);
     const locationName = `${e.target.id}-section`;
-    let menuHeight = 80;
+    let menuHeight = 80 + 30;
     let location =
       document.getElementById(locationName) !== null
         ? document.getElementById(locationName).offsetTop
