@@ -14,14 +14,14 @@ function Contact() {
         >
           위치
         </div>
-        <div
+        {/* <div
           className={`contact-sub-header-menu ${
             content === 2 ? "clicked" : ""
           }`}
           onClick={() => setContent(2)}
         >
           연락처
-        </div>
+        </div> */}
       </div>
       <div className="contact-contents">
         {content === 1 && (
