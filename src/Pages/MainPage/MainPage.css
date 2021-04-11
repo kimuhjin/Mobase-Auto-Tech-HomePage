@@ -36,13 +36,13 @@
   animation: fadeOut 1s ease-in-out;
 }
 .main-page-section-title {
-  width: 710px;
+  width: 1250px;
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
   font-size: 26px;
   font-weight: 500;
   margin-top: 50px;
-  margin-bottom: 50px;
+  margin-bottom: -37px;
 }
 
 .main-page-section-title-margin-top {
