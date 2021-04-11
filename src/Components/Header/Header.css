@@ -13,7 +13,7 @@
   height: 80px;
   padding: 0px 240px;
   margin: 0px auto;
-  background-color: rgba(240, 240, 240, 0.596);
+  background-color: rgba(240, 240, 240, 0.89);
 }
 @media (max-width: 1500px) {
   .header-container {

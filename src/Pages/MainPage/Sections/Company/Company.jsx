@@ -9,7 +9,119 @@ import { RiUserStarLine } from "react-icons/ri";
 
 function Company() {
   const [content, setContent] = useState(1);
-
+  const [countrySelect, setCountrySelect] = useState("all");
+  const customerList = [
+    {
+      name: "SK 이노베이션",
+      img_src: "",
+      country: "domestic",
+    },
+    {
+      name: "삼성SDI",
+      img_src: "",
+      country: "aboard",
+    },
+    {
+      name: "마힌드라",
+      img_src: "",
+      country: "aboard",
+    },
+    {
+      name: "코지마",
+      img_src: "",
+      country: "aboard",
+    },
+    {
+      name: "빈패스트",
+      img_src: "",
+      country: "aboard",
+    },
+    {
+      name: "다임러 후소",
+      img_src: "",
+      country: "aboard",
+    },
+    {
+      name: "현대자동차",
+      img_src: "",
+      country: "domestic",
+    },
+    {
+      name: "기아자동차",
+      img_src: "",
+      country: "domestic",
+    },
+    {
+      name: "르노삼성",
+      img_src: "",
+      country: "domestic",
+    },
+    {
+      name: "쌍용자동차",
+      img_src: "",
+      country: "domestic",
+    },
+    {
+      name: "GM",
+      img_src: "",
+      country: "domestic",
+    },
+    {
+      name: "피아트크라이슬러 그룹",
+      img_src: "",
+      country: "aboard",
+    },
+    {
+      name: "넥스티어",
+      img_src: "",
+      country: "aboard",
+    },
+    {
+      name: "나비스타",
+      img_src: "",
+      country: "aboard",
+    },
+    {
+      name: "맥",
+      img_src: "",
+      country: "aboard",
+    },
+    {
+      name: "볼보",
+      img_src: "",
+      country: "aboard",
+    },
+    {
+      name: "포드",
+      img_src: "",
+      country: "aboard",
+    },
+    {
+      name: "상해기차",
+      img_src: "",
+      country: "aboard",
+    },
+    {
+      name: "광주기차",
+      img_src: "",
+      country: "aboard",
+    },
+    {
+      name: "북기은상기차",
+      img_src: "",
+      country: "aboard",
+    },
+    {
+      name: "상기통용오릉기차",
+      img_src: "",
+      country: "aboard",
+    },
+    {
+      name: "장안기차",
+      img_src: "",
+      country: "aboard",
+    },
+  ];
   return (
     <div className="company-container">
       <div className="company-sub-header">
@@ -257,6 +369,82 @@ function Company() {
               전동공구 프레임, 광학기기 프레임, 화장품 부속 도구 등
             </div>
             {/* */}
+          </div>
+        )}
+        {content === 5 && (
+          <div className="company-customer-container">
+            <div className="company-customer-country-selector">
+              <div
+                className={`company-customer-country-select ${
+                  countrySelect === "all"
+                    ? "company-customer-country-select-clicked"
+                    : ""
+                }`}
+                onClick={() => setCountrySelect("all")}
+              >
+                전체
+              </div>
+              &nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;
+              <div
+                className={`company-customer-country-select ${
+                  countrySelect === "domestic"
+                    ? "company-customer-country-select-clicked"
+                    : ""
+                }`}
+                onClick={() => setCountrySelect("domestic")}
+              >
+                국내
+              </div>
+              &nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;
+              <div
+                className={`company-customer-country-select ${
+                  countrySelect === "aboard"
+                    ? "company-customer-country-select-clicked"
+                    : ""
+                }`}
+                onClick={() => setCountrySelect("aboard")}
+              >
+                해외
+              </div>
+            </div>
+            <div className="company-customer-country-lists">
+              {customerList.map((data) => {
+                if (countrySelect === "all") {
+                  return (
+                    <div>
+                      <div className="company-customer-country-list"></div>
+                      <div className="company-customer-country-list-name">
+                        {data.name}
+                      </div>
+                    </div>
+                  );
+                }
+                if (countrySelect === "domestic") {
+                  if (data.country === "domestic") {
+                    return (
+                      <div>
+                        <div className="company-customer-country-list"></div>
+                        <div className="company-customer-country-list-name">
+                          {data.name}
+                        </div>
+                      </div>
+                    );
+                  }
+                }
+                if (countrySelect === "aboard") {
+                  if (data.country === "aboard") {
+                    return (
+                      <div>
+                        <div className="company-customer-country-list"></div>
+                        <div className="company-customer-country-list-name">
+                          {data.name}
+                        </div>
+                      </div>
+                    );
+                  }
+                }
+              })}{" "}
+            </div>
           </div>
         )}
       </div>
