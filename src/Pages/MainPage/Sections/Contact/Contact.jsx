@@ -17,13 +17,22 @@ function Contact() {
       </div>
       <div className="contact-contents">
         {content === 1 && (
-          <KakaoMap
-            location={{ x: 37.21475486667424, y: 127.09381401782406 }}
-            infoWindowMessage={"모베이스 오토테크"}
-            markerOn={true}
-            infoWindowOn={true}
-            level={5}
-          />
+          <div className="contact-contents-container">
+            <KakaoMap
+              location={{ x: 37.21475486667424, y: 127.09381401782406 }}
+              infoWindowMessage={"모베이스 오토테크"}
+              markerOn={true}
+              infoWindowOn={true}
+              level={5}
+            />
+            <div className="contact-box">
+              주소 : 경기 화성시 동탄첨단산업1로73
+              <br />
+              전화 : 032-500-5874
+              <br />
+              팩스 : 032-500-5989
+            </div>
+          </div>
         )}
       </div>
     </div>

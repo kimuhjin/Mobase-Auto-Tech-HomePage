@@ -15,8 +15,8 @@ function MainPage() {
         <div />
       </div>
       <div className="main-page-section" id="company-section">
-        <div className="main-page-section-title main-page-section-title-margin-top">
-          회사 소개
+        <div className="main-page-section-title-wrapper">
+          <div className="main-page-section-title">회사 소개</div>
         </div>
         <Company />
       </div>

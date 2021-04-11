@@ -17,6 +17,7 @@
   justify-content: center;
   align-items: center;
   font-size: 48px;
+  background-color: rgb(252, 252, 252, 0.9);
 }
 
 @keyframes fadeOut {
@@ -46,8 +47,23 @@
   margin-bottom: -35px;
 }
 
-/* .main-page-section-title-margin-top {
-  margin-top: 150px;
+/* .main-page-section-title {
+  width: 1125px;
+  display: flex;
+  justify-content: flex-start;
+  font-size: 26px;
+  font-weight: 500;
+}
+.main-page-section-title-wrapper {
+  width: 1200px;
+  height: 55px;
+  padding-left: 35px;
+  box-sizing: border-box;
+  background-color: rgba(240, 240, 240, 0.89);
+  margin-bottom: -40px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
 } */
 .main-page-banner1 {
   width: 100%;

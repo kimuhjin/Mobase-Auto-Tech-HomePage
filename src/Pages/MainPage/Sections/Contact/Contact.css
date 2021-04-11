@@ -45,3 +45,17 @@
   align-items: flex-start;
   font-size: 14px;
 }
+.contact-box {
+  margin-top: 20px;
+  width: 710px;
+  padding: 10px 15px;
+  box-sizing: border-box;
+  background-color: #f8f8f8;
+  font-size: 13px;
+  line-height: 1.8;
+}
+.contact-contents-container {
+  width: 710px;
+  display: flex;
+  flex-direction: column;
+}
