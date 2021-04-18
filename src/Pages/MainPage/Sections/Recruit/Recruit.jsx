@@ -1,11 +1,18 @@
 import "./Recruit.css";
 import React, { useState } from "react";
-import { AiOutlineRight } from "react-icons/ai";
-import { BiRun } from "react-icons/bi";
-import { HiLightBulb } from "react-icons/hi";
+import { AiOutlineRight, AiFillTrophy } from "react-icons/ai";
+import { BiRun, BiTimer } from "react-icons/bi";
+import {
+  HiLightBulb,
+  HiOutlinePresentationChartBar,
+  HiOutlineLightBulb,
+} from "react-icons/hi";
 import { GiTeamIdea } from "react-icons/gi";
-import { BsPersonCheckFill } from "react-icons/bs";
+import { BsPersonCheckFill, BsPlus } from "react-icons/bs";
 import { RiCustomerService2Fill } from "react-icons/ri";
+import { ImManWoman } from "react-icons/im";
+import { GoLaw } from "react-icons/go";
+import { FaFileInvoiceDollar, FaSearchDollar } from "react-icons/fa";
 
 function Recruit() {
   const [content, setContent] = useState(5);
@@ -403,7 +410,158 @@ function Recruit() {
             </div>
           </div>
         )}
-        {content === 2 && <div className="recruit-image-2" />}
+        {content === 2 && (
+          <div className="recruit-infomation-container">
+            <div className="recruit-development-main-title color-blue">
+              모베이스 오토테크는 객관적이고 공정한 인사관리 제도를 실시하고
+              있습니다.
+            </div>
+            <div className="recruit-development-sub-title">
+              끊임 없는 기술축척과 품질개선으로 지속적인 발전을 이륙해 온
+              (주)모베이스 오토테크의 꿈을 실현해 나가기 위해
+              <br />
+              인간존중을 바탕으로 하여 채용에서 퇴직 인력관리에 있어 객관적이고
+              공정한 인사관리 및 개인의 발전을 통한
+              <br />
+              <div className="recruit-development-sub-title-black">
+                회사의 발전을 위해 지속적인 인재관리 제도
+              </div>
+              를 실시하고 있습니다.
+            </div>
+            <div className="recruit-devide-line" />
+            <div className="recruit-development-detail-description-container">
+              <div className="recruit-development-detail-description-circle-box">
+                <div className="recruit-development-detail-description-circle-box-right-top" />
+                <div className="recruit-development-detail-description-circle-box-left-bottom" />
+                <div className="recruit-development-detail-description-circle-box-center" />
+                <div className="recruit-development-detail-description-circle-box-small-circle-top">
+                  <BsPlus className="recruit-development-detail-description-circle-box-small-circle-icon" />
+                </div>
+                <div className="recruit-development-detail-description-circle-box-small-circle-bottom">
+                  <BsPlus className="recruit-development-detail-description-circle-box-small-circle-icon" />
+                </div>
+                <div className="recruit-development-detail-description-circle-box-small-circle-left">
+                  <BsPlus className="recruit-development-detail-description-circle-box-small-circle-icon" />
+                </div>
+                <div className="recruit-development-detail-description-circle-box-small-circle-right">
+                  <BsPlus className="recruit-development-detail-description-circle-box-small-circle-icon" />
+                </div>
+                <div className="recruit-development-detail-description-circle-box-small-circle-center-icon-box">
+                  <ImManWoman className="recruit-development-detail-description-circle-box-small-circle-center-icon" />
+                </div>
+              </div>
+              <div className="recruit-development-detail-description-side-box-left">
+                <HiOutlineLightBulb className="recruit-development-detail-description-side-icon" />
+                <div className="recruit-development-detail-description-side-title">
+                  개인의 창의와 자율 존중
+                </div>
+                <div className="recruit-development-detail-description-side-article">
+                  개개인이 창의력을 <br />
+                  충분히 발휘할 수 있도록 개성과
+                  <br /> 다양성을 존중합니다.
+                </div>
+              </div>
+              <div className="recruit-development-detail-description-side-box-right">
+                <HiOutlinePresentationChartBar className="recruit-development-detail-description-side-icon" />
+                <div className="recruit-development-detail-description-side-title">
+                  장기적 관점의 인사
+                </div>
+                <div className="recruit-development-detail-description-side-article">
+                  인사와 관련된 인사결정과 <br />
+                  활동을 장기적 관점에서
+                  <br /> 일관되고 공정히 추진합니다.
+                </div>
+              </div>
+              <div className="recruit-development-detail-description-side-box-left-bottom">
+                <AiFillTrophy className="recruit-development-detail-description-side-icon" />
+                <div className="recruit-development-detail-description-side-title">
+                  성과에 따른 보상
+                </div>
+                <div className="recruit-development-detail-description-side-article">
+                  성과는 공정하게 평가하고 <br />
+                  개인별/조직별 기여도에 따라 보상합니다.
+                </div>
+              </div>
+              <div className="recruit-development-detail-description-side-box-right-bottom">
+                <GoLaw className="recruit-development-detail-description-side-icon" />
+                <div className="recruit-development-detail-description-side-title">
+                  공평한 기회 제공
+                </div>
+                <div className="recruit-development-detail-description-side-article">
+                  직원의 능력과 자질에 따라 <br />
+                  공평한 기회를 제공합니다.
+                </div>
+              </div>
+            </div>
+            <div className="recruit-devide-line" />
+            <div className="recruit-payment-container">
+              <div className="recruit-section-title-line"></div>
+              <div className="recruit-section-title">급여 제도</div>
+              <div className="recruit-payment-description-box">
+                <div className="recruit-payment-description-box-item">
+                  <div className="recruit-payment-description-box-item-icon-box">
+                    <FaSearchDollar className="recruit-payment-description-box-item-icon" />
+                  </div>
+                  <div className="recruit-payment-description-box-item-article">
+                    사무직 연봉제 / 현장직 시급제 실시
+                  </div>
+                </div>
+                <div className="recruit-payment-description-box-item">
+                  <div className="recruit-payment-description-box-item-icon-box">
+                    <FaFileInvoiceDollar className="recruit-payment-description-box-item-icon" />
+                  </div>
+                  <div className="recruit-payment-description-box-item-article">
+                    경영성과 따른 특별성과급 지급
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="recruit-promotion-container">
+              <div className="recruit-section-title-line"></div>
+              <div className="recruit-section-title">승격 제도</div>
+              <div className="recruit-promotion-table">
+                <div className="recruit-promotion-top">
+                  <div className="recruit-promotion-table-title">개요</div>
+                  <div className="recruit-promotion-table-title-column">
+                    사원
+                  </div>
+                  <div className="recruit-promotion-table-title-column">
+                    대리
+                  </div>
+                  <div className="recruit-promotion-table-title-column">
+                    과장
+                  </div>
+                  <div className="recruit-promotion-table-title-column">
+                    차장
+                  </div>
+                  <div className="recruit-promotion-table-title-column">
+                    부장
+                  </div>
+                </div>
+                <div className="recruit-promotion-bottom">
+                  <div className="recruit-promotion-table-title-bottom">
+                    년수
+                  </div>
+                  <div className="recruit-promotion-table-title-column-bottom">
+                    4
+                  </div>
+                  <div className="recruit-promotion-table-title-column-bottom">
+                    4
+                  </div>
+                  <div className="recruit-promotion-table-title-column-bottom">
+                    4
+                  </div>
+                  <div className="recruit-promotion-table-title-column-bottom">
+                    4
+                  </div>
+                  <div className="recruit-promotion-table-title-column-bottom">
+                    4
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        )}
       </div>
     </div>
   );

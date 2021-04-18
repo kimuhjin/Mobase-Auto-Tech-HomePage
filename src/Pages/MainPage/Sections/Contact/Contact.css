@@ -4,7 +4,6 @@
   justify-content: flex-start;
   align-items: center;
   width: 100%;
-  margin-bottom: 100px;
 }
 .contact-sub-header {
   display: flex;
@@ -87,98 +86,4 @@
   font-size: 13px;
   color: #363686;
   margin-right: 8px;
-}
-.recruit-talent-icon-section {
-  margin-top: 25px;
-  width: 100%;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-.recruit-talent-icon-container {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-.recruit-talent-icon-box {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 112px;
-  height: 112px;
-  box-sizing: border-box;
-  border-radius: 50%;
-  border: 10px solid rgb(255, 218, 9);
-}
-.recruit-talent-icon-title {
-  margin-top: 5px;
-  font-size: 14px;
-  font-weight: 500;
-}
-.recruit-talent-icon-sub-title {
-  font-size: 13px;
-  font-weight: 500;
-  color: gray;
-  letter-spacing: -0.5px;
-}
-.recruit-talent-icon {
-  font-size: 48px;
-  color: #363686;
-}
-.recruit-talent-description-container {
-  margin-top: 60px;
-  width: 710px;
-  box-sizing: border-box;
-  border: 1px solid #f0efef;
-}
-.recruit-talent-description-box {
-  padding: 32px;
-  box-sizing: border-box;
-  display: flex;
-  justify-content: flex-start;
-  align-items: center;
-}
-.recruit-talent-description-box-devide-line {
-  width: 646px;
-  height: 1px;
-  margin: 0px auto;
-  border-bottom: 1px dashed #f0efef;
-  box-sizing: border-box;
-}
-.recruit-talent-description-icon-box {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 67px;
-  height: 67px;
-  border-radius: 50%;
-  background-color: #f0efef;
-}
-.recruit-talent-description-title-box {
-  min-width: 130px;
-  margin-left: 21px;
-}
-.recruit-talent-description-title {
-  font-size: 18px;
-  font-weight: 500;
-}
-.recruit-talent-description-sub-title {
-  font-size: 12px;
-  font-weight: 500;
-  color: #363686;
-}
-.recruit-talent-description-article {
-  margin-left: 40px;
-  font-size: 13px;
-  color: gray;
-}
-.recruit-talent-description-icon {
-  font-size: 28px;
-  color: #fff;
-}
-.recruit-talent-description-article-bold {
-  font-size: 13px;
-  color: #000;
-  font-weight: 500;
 }
