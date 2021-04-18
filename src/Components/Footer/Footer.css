@@ -31,9 +31,13 @@
   font-weight: 500;
   letter-spacing: -1px;
 }
-.footer-logo {
-  width: 190px;
+.footer-logo-box {
+  width: 210px;
   display: flex;
   justify-content: center;
   align-items: center;
+}
+.footer-logo {
+  width: 53px;
+  margin-right: 5px;
 }

@@ -3,8 +3,8 @@ import logo from "../../asset/image/logo_footer.png";
 function Footer() {
   return (
     <div className="footer-container">
-      <div className="footer-logo">
-        <img className="logo" src={logo} alt="MOBASE AUTO TECH Logo" />
+      <div className="footer-logo-box">
+        <img className="footer-logo" src={logo} alt="MOBASE AUTO TECH Logo" />
         주식회사 모베이스 오토테크
       </div>
       <div className="footer-description">
@@ -18,7 +18,7 @@ function Footer() {
           COPYRIGHT MOBASE AUTOTECH ALL RIGHTS RESERVED
         </div>
       </div>
-      <div className="footer-logo" />
+      <div className="footer-logo-box" />
     </div>
   );
 }
