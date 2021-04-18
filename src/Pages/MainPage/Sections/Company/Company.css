@@ -240,3 +240,17 @@ background-position: center;
 .company-customer-country-list-name {
   margin-top: 10px;
 }
+.company-history-container {
+  width: 710px;
+}
+.company-history-title-line {
+  width: 20px;
+  height: 3px;
+  background-color: #363686;
+  margin-bottom: 3px;
+}
+.company-history-title {
+  font-size: 20px;
+  color: #363686;
+  font-weight: bold;
+}

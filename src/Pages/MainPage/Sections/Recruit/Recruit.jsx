@@ -574,7 +574,7 @@ function Recruit() {
         )}
         {content === 3 && (
           <div className="recruit-walfare-container">
-            <div className="recruit-development-main-title color-blue">
+            <div className="recruit-walfare-main-title color-blue">
               모베이스 오토테크는 구성원 모두의 행복을 추구하고 있습니다.
             </div>
             <div className="recruit-development-sub-title">
@@ -713,11 +713,7 @@ function Recruit() {
                     <FaDumbbell className="recruit-health-box-icon" />
                   </div>
                   <div className="recruit-health-box-title">채육시설 운영</div>
-                  <div className="recruit-health-box-article">
-                    헬스장, 축구/농구/족구
-                    <br />
-                    탁구장 및 샤워장 운영
-                  </div>
+                  <div className="recruit-health-box-article">풋살장 운영</div>
                 </div>
                 <div className="recruit-health-box">
                   <div className="recruit-health-box-icon-box">

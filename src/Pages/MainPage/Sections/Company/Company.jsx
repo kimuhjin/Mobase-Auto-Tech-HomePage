@@ -12,112 +12,27 @@ function Company() {
   const [countrySelect, setCountrySelect] = useState("all");
   const customerList = [
     {
-      name: "SK 이노베이션",
+      name: "GM Korea",
       img_src: "",
       country: "domestic",
     },
     {
-      name: "삼성SDI",
-      img_src: "",
-      country: "aboard",
-    },
-    {
-      name: "마힌드라",
-      img_src: "",
-      country: "aboard",
-    },
-    {
-      name: "코지마",
-      img_src: "",
-      country: "aboard",
-    },
-    {
-      name: "빈패스트",
-      img_src: "",
-      country: "aboard",
-    },
-    {
-      name: "다임러 후소",
-      img_src: "",
-      country: "aboard",
-    },
-    {
-      name: "현대자동차",
+      name: "Denso Korea",
       img_src: "",
       country: "domestic",
     },
     {
-      name: "기아자동차",
+      name: "Mobase Electronics",
       img_src: "",
       country: "domestic",
     },
     {
-      name: "르노삼성",
-      img_src: "",
-      country: "domestic",
-    },
-    {
-      name: "쌍용자동차",
-      img_src: "",
-      country: "domestic",
-    },
-    {
-      name: "GM",
-      img_src: "",
-      country: "domestic",
-    },
-    {
-      name: "피아트크라이슬러 그룹",
+      name: "HITACHI",
       img_src: "",
       country: "aboard",
     },
     {
-      name: "넥스티어",
-      img_src: "",
-      country: "aboard",
-    },
-    {
-      name: "나비스타",
-      img_src: "",
-      country: "aboard",
-    },
-    {
-      name: "맥",
-      img_src: "",
-      country: "aboard",
-    },
-    {
-      name: "볼보",
-      img_src: "",
-      country: "aboard",
-    },
-    {
-      name: "포드",
-      img_src: "",
-      country: "aboard",
-    },
-    {
-      name: "상해기차",
-      img_src: "",
-      country: "aboard",
-    },
-    {
-      name: "광주기차",
-      img_src: "",
-      country: "aboard",
-    },
-    {
-      name: "북기은상기차",
-      img_src: "",
-      country: "aboard",
-    },
-    {
-      name: "상기통용오릉기차",
-      img_src: "",
-      country: "aboard",
-    },
-    {
-      name: "장안기차",
+      name: "LG Energy Solution",
       img_src: "",
       country: "aboard",
     },
@@ -229,7 +144,12 @@ function Company() {
             </div>
           </>
         )}
-        {content === 2 && <div className="company-image-2"></div>}
+        {content === 2 && (
+          <div className="company-history-container">
+            <div className="company-history-title-line"></div>
+            <div className="company-history-title">History</div>
+          </div>
+        )}
         {content === 3 && (
           <div className="company-certification-container">
             <div className="company-certification-box">

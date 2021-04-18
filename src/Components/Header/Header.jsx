@@ -55,7 +55,7 @@ function Header() {
             id="main"
             onClick={handleScrollTo}
           >
-            메인
+            홈
           </div>
           <div
             className={`menu ${clicked === "company" ? "clicked" : ""}`}
@@ -78,19 +78,20 @@ function Header() {
           >
             연구개발
           </div>
-          <div
-            className={`menu ${clicked === "recruit" ? "clicked" : ""}`}
-            id="recruit"
-            onClick={handleScrollTo}
-          >
-            채용정보
-          </div>
+
           <div
             className={`menu ${clicked === "business" ? "clicked" : ""}`}
             id="business"
             onClick={handleScrollTo}
           >
             윤리경영
+          </div>
+          <div
+            className={`menu ${clicked === "recruit" ? "clicked" : ""}`}
+            id="recruit"
+            onClick={handleScrollTo}
+          >
+            채용정보
           </div>
           <div
             className={`menu ${clicked === "contact" ? "clicked" : ""}`}

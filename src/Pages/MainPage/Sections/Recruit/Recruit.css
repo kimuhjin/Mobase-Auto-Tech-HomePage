@@ -253,7 +253,7 @@
   letter-spacing: -0.5px;
 }
 .recruit-talent-icon {
-  font-size: 48px;
+  font-size: 38px;
   color: #363686;
 }
 .recruit-talent-description-container {
@@ -314,6 +314,11 @@
 }
 .recruit-development-main-title {
   font-size: 22px;
+  font-weight: bold;
+  letter-spacing: -0.5px;
+}
+.recruit-walfare-main-title {
+  font-size: 24px;
   font-weight: bold;
   letter-spacing: -0.5px;
 }
