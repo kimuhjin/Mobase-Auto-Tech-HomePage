@@ -326,8 +326,8 @@ background-position: center;
   transform: rotate(90deg);
   left: 40px;
   width: 45px;
-  height: 1px;
-  border-top: 1px dashed gray;
+  height: 2px;
+  border-top: 2px dashed gray;
   margin-bottom: 25px;
   margin-top: 25px;
 }
