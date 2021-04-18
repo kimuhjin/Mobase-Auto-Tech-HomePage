@@ -1,33 +1,41 @@
 {
   "files": {
-    "main.css": "/Mobase-Auto-Tech-HomePage/static/css/main.6ca4073e.chunk.css",
-    "main.js": "/Mobase-Auto-Tech-HomePage/static/js/main.9f259a2d.chunk.js",
-    "main.js.map": "/Mobase-Auto-Tech-HomePage/static/js/main.9f259a2d.chunk.js.map",
+    "main.css": "/Mobase-Auto-Tech-HomePage/static/css/main.88ffcca7.chunk.css",
+    "main.js": "/Mobase-Auto-Tech-HomePage/static/js/main.4c771d84.chunk.js",
+    "main.js.map": "/Mobase-Auto-Tech-HomePage/static/js/main.4c771d84.chunk.js.map",
     "runtime-main.js": "/Mobase-Auto-Tech-HomePage/static/js/runtime-main.c9c24d00.js",
     "runtime-main.js.map": "/Mobase-Auto-Tech-HomePage/static/js/runtime-main.c9c24d00.js.map",
-    "static/js/2.301706f0.chunk.js": "/Mobase-Auto-Tech-HomePage/static/js/2.301706f0.chunk.js",
-    "static/js/2.301706f0.chunk.js.map": "/Mobase-Auto-Tech-HomePage/static/js/2.301706f0.chunk.js.map",
+    "static/js/2.5a66a01b.chunk.js": "/Mobase-Auto-Tech-HomePage/static/js/2.5a66a01b.chunk.js",
+    "static/js/2.5a66a01b.chunk.js.map": "/Mobase-Auto-Tech-HomePage/static/js/2.5a66a01b.chunk.js.map",
     "static/js/3.b20f5b45.chunk.js": "/Mobase-Auto-Tech-HomePage/static/js/3.b20f5b45.chunk.js",
     "static/js/3.b20f5b45.chunk.js.map": "/Mobase-Auto-Tech-HomePage/static/js/3.b20f5b45.chunk.js.map",
     "index.html": "/Mobase-Auto-Tech-HomePage/index.html",
-    "static/css/main.6ca4073e.chunk.css.map": "/Mobase-Auto-Tech-HomePage/static/css/main.6ca4073e.chunk.css.map",
-    "static/js/2.301706f0.chunk.js.LICENSE.txt": "/Mobase-Auto-Tech-HomePage/static/js/2.301706f0.chunk.js.LICENSE.txt",
+    "static/css/main.88ffcca7.chunk.css.map": "/Mobase-Auto-Tech-HomePage/static/css/main.88ffcca7.chunk.css.map",
+    "static/js/2.5a66a01b.chunk.js.LICENSE.txt": "/Mobase-Auto-Tech-HomePage/static/js/2.5a66a01b.chunk.js.LICENSE.txt",
+    "static/media/Hitachi_logo.d9cf7465.png": "/Mobase-Auto-Tech-HomePage/static/media/Hitachi_logo.d9cf7465.png",
     "static/media/Multi-Input-Device.9db55056.png": "/Mobase-Auto-Tech-HomePage/static/media/Multi-Input-Device.9db55056.png",
     "static/media/MainPage.css": "/Mobase-Auto-Tech-HomePage/static/media/banner-2.d66421f5.jpeg",
     "static/media/center-facia-switch.d17d55d1.png": "/Mobase-Auto-Tech-HomePage/static/media/center-facia-switch.d17d55d1.png",
     "static/media/Contact.css": "/Mobase-Auto-Tech-HomePage/static/media/company-pic.9198fdd6.png",
     "static/media/console-switch.a3b41676.png": "/Mobase-Auto-Tech-HomePage/static/media/console-switch.a3b41676.png",
+    "static/media/denso_logo.97f86de4.png": "/Mobase-Auto-Tech-HomePage/static/media/denso_logo.97f86de4.png",
     "static/media/electric-steering-column-lock.eec2fb1f.png": "/Mobase-Auto-Tech-HomePage/static/media/electric-steering-column-lock.eec2fb1f.png",
+    "static/media/fan-motor.d6e52b4c.png": "/Mobase-Auto-Tech-HomePage/static/media/fan-motor.d6e52b4c.png",
     "static/media/folding-key.c361a3d0.png": "/Mobase-Auto-Tech-HomePage/static/media/folding-key.c361a3d0.png",
+    "static/media/gm_logo.3f8d941d.png": "/Mobase-Auto-Tech-HomePage/static/media/gm_logo.3f8d941d.png",
     "static/media/instrument-panner-switch.9b5c6d9b.png": "/Mobase-Auto-Tech-HomePage/static/media/instrument-panner-switch.9b5c6d9b.png",
+    "static/media/korea-map.0371d11b.png": "/Mobase-Auto-Tech-HomePage/static/media/korea-map.0371d11b.png",
+    "static/media/lg_logo.3b035591.png": "/Mobase-Auto-Tech-HomePage/static/media/lg_logo.3b035591.png",
+    "static/media/logo.916ed41c.png": "/Mobase-Auto-Tech-HomePage/static/media/logo.916ed41c.png",
     "static/media/Recruit.css": "/Mobase-Auto-Tech-HomePage/static/media/notice_img2.50a13c0c.jpg",
     "static/media/side-crush-pad-switch.98803c62.png": "/Mobase-Auto-Tech-HomePage/static/media/side-crush-pad-switch.98803c62.png",
-    "static/media/steering-wheel-remote-control-switch.d50942b2.png": "/Mobase-Auto-Tech-HomePage/static/media/steering-wheel-remote-control-switch.d50942b2.png"
+    "static/media/steering-wheel-remote-control-switch.d50942b2.png": "/Mobase-Auto-Tech-HomePage/static/media/steering-wheel-remote-control-switch.d50942b2.png",
+    "static/media/world-map.230efcf3.png": "/Mobase-Auto-Tech-HomePage/static/media/world-map.230efcf3.png"
   },
   "entrypoints": [
     "static/js/runtime-main.c9c24d00.js",
-    "static/js/2.301706f0.chunk.js",
-    "static/css/main.6ca4073e.chunk.css",
-    "static/js/main.9f259a2d.chunk.js"
+    "static/js/2.5a66a01b.chunk.js",
+    "static/css/main.88ffcca7.chunk.css",
+    "static/js/main.4c771d84.chunk.js"
   ]
 }
