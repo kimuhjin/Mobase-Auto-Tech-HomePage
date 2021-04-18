@@ -37,7 +37,8 @@
 }
 
 .logo {
-  color: blue;
+  width: 144px;
+  height: 39px;
 }
 .menu-container {
   display: flex;

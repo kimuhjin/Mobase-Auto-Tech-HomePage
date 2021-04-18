@@ -60,12 +60,12 @@
   flex-direction: column;
 }
 .contact-box-infomation {
-  font-size: 13px;
+  font-size: 15px;
   line-height: 1.8;
 }
 .contact-box-infomation-image {
-  width: 253px;
-  height: 132px;
+  width: 283px;
+  height: 162px;
   background-image: url(../../../../asset/image/company-pic.png);
   background-repeat: no-repeat;
   background-position: center;

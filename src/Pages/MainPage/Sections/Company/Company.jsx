@@ -1,15 +1,20 @@
 import "./Company.css";
 import React, { useState } from "react";
 import { GoLaw } from "react-icons/go";
-import { IoIosPeople } from "react-icons/io";
+import { IoIosPeople, IoIosPin } from "react-icons/io";
 import { FaHandHoldingHeart } from "react-icons/fa";
 import { FaRegHandshake } from "react-icons/fa";
-import { GrGroup } from "react-icons/gr";
-import { RiUserStarLine } from "react-icons/ri";
-
+import { GrGroup, GrLocationPin } from "react-icons/gr";
+import { RiUserStarLine, RiMapPin2Line } from "react-icons/ri";
+import worldMap from "../../../../asset/image/world-map.png";
+import koreaMap from "../../../../asset/image/korea-map.png";
+import Hitachi_logo from "../../../../asset/image/Hitachi_logo.png";
+import Lg_logo from "../../../../asset/image/lg_logo.png";
+import Denso_logo from "../../../../asset/image/denso_logo.png";
+import Gm_logo from "../../../../asset/image/gm_logo.png";
 function Company() {
   const [content, setContent] = useState(1);
-  const [countrySelect, setCountrySelect] = useState("all");
+  const [countrySelect, setCountrySelect] = useState("domestic");
   const customerList = [
     {
       name: "GM Korea",
@@ -296,17 +301,6 @@ function Company() {
             <div className="company-customer-country-selector">
               <div
                 className={`company-customer-country-select ${
-                  countrySelect === "all"
-                    ? "company-customer-country-select-clicked"
-                    : ""
-                }`}
-                onClick={() => setCountrySelect("all")}
-              >
-                전체
-              </div>
-              &nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;
-              <div
-                className={`company-customer-country-select ${
                   countrySelect === "domestic"
                     ? "company-customer-country-select-clicked"
                     : ""
@@ -327,43 +321,87 @@ function Company() {
                 해외
               </div>
             </div>
-            <div className="company-customer-country-lists">
-              {customerList.map((data) => {
-                if (countrySelect === "all") {
-                  return (
-                    <div>
-                      <div className="company-customer-country-list"></div>
-                      <div className="company-customer-country-list-name">
-                        {data.name}
+            <div className="company-customer-country-container">
+              {countrySelect === "domestic" && (
+                <div className="company-customer-country-map-korea-container">
+                  <img
+                    className="company-customer-country-map-korea"
+                    alr="Korea Map"
+                    src={koreaMap}
+                  ></img>
+                  <div className="company-customer-korea-pin-suwon">
+                    <img
+                      className="company-customer-company-logo-mobase"
+                      alr="HITACHI LOGO"
+                      src={Hitachi_logo}
+                    ></img>
+                    <div className="company-customer-world-pin-line-suwon" />
+                    <div className="company-customer-world-pin-contents-suwon">
+                      <RiMapPin2Line className="company-customer-pin-icon" />
+                      <div className="company-customer-world-pin-title">
+                        SUWON
                       </div>
                     </div>
-                  );
-                }
-                if (countrySelect === "domestic") {
-                  if (data.country === "domestic") {
-                    return (
-                      <div>
-                        <div className="company-customer-country-list"></div>
-                        <div className="company-customer-country-list-name">
-                          {data.name}
-                        </div>
+                  </div>
+                  <div className="company-customer-korea-pin-changwon">
+                    <img
+                      className="company-customer-company-logo-gm"
+                      alr="GM LOGO"
+                      src={Gm_logo}
+                    ></img>
+                    <div className="company-customer-world-pin-line-gm" />
+                    <img
+                      className="company-customer-company-logo-denso"
+                      alr="DENSO LOGO"
+                      src={Denso_logo}
+                    ></img>
+                    <div className="company-customer-world-pin-line-denso" />
+                    <div className="company-customer-world-pin-contents-changwon">
+                      <div className="company-customer-world-pin-title">
+                        CHANGWON
                       </div>
-                    );
-                  }
-                }
-                if (countrySelect === "aboard") {
-                  if (data.country === "aboard") {
-                    return (
-                      <div>
-                        <div className="company-customer-country-list"></div>
-                        <div className="company-customer-country-list-name">
-                          {data.name}
-                        </div>
+                      <RiMapPin2Line className="company-customer-pin-icon" />
+                    </div>
+                  </div>
+                </div>
+              )}
+              {countrySelect === "aboard" && (
+                <>
+                  <img
+                    className="company-customer-country-map-world"
+                    alr="worldMap"
+                    src={worldMap}
+                  ></img>
+                  <div className="company-customer-world-pin-usa">
+                    <img
+                      className="company-customer-company-logo-lg"
+                      alr="LG LOGO"
+                      src={Lg_logo}
+                    ></img>
+                    <div className="company-customer-world-pin-line-poland" />
+                    <div className="company-customer-world-pin-contents">
+                      <RiMapPin2Line className="company-customer-pin-icon" />
+                      <div className="company-customer-world-pin-title">
+                        USA
                       </div>
-                    );
-                  }
-                }
-              })}{" "}
+                    </div>
+                  </div>
+                  <div className="company-customer-world-pin-poland">
+                    <img
+                      className="company-customer-company-logo"
+                      alr="HITACHI LOGO"
+                      src={Hitachi_logo}
+                    ></img>
+                    <div className="company-customer-world-pin-line-poland" />
+                    <div className="company-customer-world-pin-contents">
+                      <RiMapPin2Line className="company-customer-pin-icon" />
+                      <div className="company-customer-world-pin-title">
+                        POLAND
+                      </div>
+                    </div>
+                  </div>
+                </>
+              )}
             </div>
           </div>
         )}

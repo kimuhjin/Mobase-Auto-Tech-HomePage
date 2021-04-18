@@ -239,7 +239,7 @@ function Recruit() {
                   <div className="recruit-infomation-title">기타사항</div>
                 </div>
                 <div className="recruit-infomation-flex-article">
-                  문의처 : 인사노무팀 ☎ 031-5174-3055, 3058
+                  문의처 : 경영지원팀 ☎ 032-500-5874
                 </div>
               </div>
             </div>
@@ -657,19 +657,6 @@ function Recruit() {
                     </div>
                   </div>
                   <div className="recruit-walfare-support-box-item">
-                    <FaBirthdayCake className="recruit-walfare-support-box-item-icon" />
-                    <div>
-                      <div className="recruit-walfare-support-box-item-title">
-                        장기 근속자 예우
-                      </div>
-                      <div className="recruit-walfare-support-box-item-article">
-                        국내외 여행휴가 및 선물 증정
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div className="recruit-walfare-support-box">
-                  <div className="recruit-walfare-support-box-item">
                     <FaMedal className="recruit-walfare-support-box-item-icon" />
                     <div>
                       <div className="recruit-walfare-support-box-item-title">
@@ -682,6 +669,8 @@ function Recruit() {
                       </div>
                     </div>
                   </div>
+                </div>
+                <div className="recruit-walfare-support-box">
                   <div className="recruit-walfare-support-box-item">
                     <RiShoppingCart2Fill className="recruit-walfare-support-box-item-icon" />
                     <div>
@@ -693,8 +682,6 @@ function Recruit() {
                       </div>
                     </div>
                   </div>
-                </div>
-                <div className="recruit-walfare-support-box">
                   <div className="recruit-walfare-support-box-item">
                     <GiIsland className="recruit-walfare-support-box-item-icon" />
                     <div>

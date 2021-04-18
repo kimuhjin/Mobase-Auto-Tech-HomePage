@@ -40,7 +40,7 @@
   justify-content: flex-start;
   align-items: center;
   width: 100%;
-  min-height: 600px;
+  min-height: 300px;
   background-color: none;
 }
 /* .company-image-1{
@@ -249,8 +249,184 @@ background-position: center;
   background-color: #363686;
   margin-bottom: 3px;
 }
+.company-customer-country-container {
+  position: relative;
+  width: 710px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 .company-history-title {
   font-size: 20px;
   color: #363686;
   font-weight: bold;
+}
+.company-customer-country-map-world {
+  position: relative;
+  margin-top: 100px;
+  margin-left: 340px;
+  min-width: 600px;
+}
+.company-customer-country-map-korea {
+  margin-top: 40px;
+  position: relative;
+  width: 350px;
+}
+.company-customer-country-map-korea-container {
+  width: 710px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.company-customer-world-pin-poland {
+  position: relative;
+  z-index: 3;
+  top: -75px;
+  right: 740px;
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.company-customer-world-pin-usa {
+  position: relative;
+  z-index: 3;
+  top: -80px;
+  left: -160px;
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.company-customer-world-pin-title {
+  display: flex;
+  height: 20px;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  box-sizing: border-box;
+  font-size: 14px;
+  font-weight: 500;
+  border-radius: 4px;
+  background-color: #fff;
+}
+.company-customer-pin-icon {
+  font-size: 24px;
+  color: #fff;
+}
+
+.company-customer-world-pin-line-poland {
+  transform: rotate(90deg);
+  left: 40px;
+  width: 45px;
+  height: 1px;
+  border-top: 1px dashed gray;
+  margin-bottom: 25px;
+  margin-top: 25px;
+}
+.company-customer-company-logo {
+  width: 90px;
+}
+.company-customer-company-logo-lg {
+  width: 180px;
+}
+.company-customer-world-pin-contents {
+  width: 180px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.company-customer-korea-pin-suwon {
+  position: absolute;
+  z-index: 10;
+  left: 145px;
+  top: 114px;
+  width: 400px;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.company-customer-world-pin-line-suwon {
+  transform: rotate(25deg);
+  position: relative;
+  right: 115px;
+  width: 150px;
+  height: 2px;
+  border-top: 2px dashed gray;
+  margin-bottom: 25px;
+  margin-top: 25px;
+}
+
+.company-customer-company-logo-mobase {
+  position: relative;
+  left: -240px;
+  top: -10px;
+  width: 100px;
+}
+.company-customer-world-pin-contents-suwon {
+  width: 180px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.company-customer-korea-pin-changwon {
+  position: absolute;
+  z-index: 10;
+  top: 220px;
+  left: 125px;
+  width: 400px;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.company-customer-world-pin-line-denso {
+  transform: rotate(150deg);
+  position: relative;
+  left: 115px;
+  top: 0px;
+  width: 120px;
+  height: 2px;
+  border-top: 2px dashed gray;
+  margin-bottom: 25px;
+  margin-top: 25px;
+}
+
+.company-customer-company-logo-denso {
+  position: relative;
+  left: 200px;
+  bottom: 0px;
+  width: 100px;
+}
+.company-customer-world-pin-line-gm {
+  transform: rotate(190deg);
+  position: absolute;
+  left: 262px;
+  top: 240px;
+  width: 90px;
+  height: 2px;
+  border-top: 2px dashed gray;
+  margin-bottom: 25px;
+  margin-top: 25px;
+}
+
+.company-customer-company-logo-gm {
+  position: absolute;
+  left: 355px;
+  bottom: 80px;
+  width: 50px;
+}
+.company-customer-world-pin-contents-changwon {
+  width: 180px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
