@@ -1,6 +1,11 @@
 import "./Recruit.css";
 import React, { useState } from "react";
 import { AiOutlineRight } from "react-icons/ai";
+import { BiRun } from "react-icons/bi";
+import { HiLightBulb } from "react-icons/hi";
+import { GiTeamIdea } from "react-icons/gi";
+import { BsPersonCheckFill } from "react-icons/bs";
+import { RiCustomerService2Fill } from "react-icons/ri";
 
 function Recruit() {
   const [content, setContent] = useState(5);
@@ -223,8 +228,182 @@ function Recruit() {
             </div>
           </>
         )}
-        {content === 2 && <div className="recruit-image-1" />}
-        {content === 3 && <div className="recruit-image-2" />}
+        {content === 1 && (
+          <div className="recruit-infomation-container">
+            <div className="recruit-infomation-main-title">
+              인재에 대한 관심, 존중, 배려가 위대한 기업을 만듭니다.
+              <br />
+              <div className="color-blue">
+                모베이스 오토테크의 성장동력은 바로 사람입니다.
+              </div>
+            </div>
+            <div className="recruit-devide-line" />
+            <div className="recruit-talent-icon-section">
+              <div className="recruit-talent-icon-container">
+                <div className="recruit-talent-icon-box">
+                  <BiRun className="recruit-talent-icon" />
+                </div>
+                <div className="recruit-talent-icon-title">열정</div>
+                <div className="recruit-talent-icon-sub-title">Passion</div>
+              </div>
+              <div className="recruit-talent-icon-container">
+                <div className="recruit-talent-icon-box">
+                  <HiLightBulb className="recruit-talent-icon" />
+                </div>
+                <div className="recruit-talent-icon-title">창의와 혁신</div>
+                <div className="recruit-talent-icon-sub-title">
+                  Creativity & Innovation
+                </div>
+              </div>
+              <div className="recruit-talent-icon-container">
+                <div className="recruit-talent-icon-box">
+                  <GiTeamIdea className="recruit-talent-icon" />
+                </div>
+                <div className="recruit-talent-icon-title">팀워크</div>
+                <div className="recruit-talent-icon-sub-title">Teamwork</div>
+              </div>
+              <div className="recruit-talent-icon-container">
+                <div className="recruit-talent-icon-box">
+                  <BsPersonCheckFill className="recruit-talent-icon" />
+                </div>
+                <div className="recruit-talent-icon-title">책임감</div>
+                <div className="recruit-talent-icon-sub-title">
+                  Accountability
+                </div>
+              </div>
+              <div className="recruit-talent-icon-container">
+                <div className="recruit-talent-icon-box">
+                  <RiCustomerService2Fill className="recruit-talent-icon" />
+                </div>
+                <div className="recruit-talent-icon-title">고객지향</div>
+                <div className="recruit-talent-icon-sub-title">
+                  Customer Centered
+                </div>
+              </div>
+            </div>
+            <div className="recruit-talent-description-section">
+              <div className="recruit-talent-description-container">
+                <div className="recruit-talent-description-box">
+                  <div className="recruit-talent-description-icon-box">
+                    <BiRun className="recruit-talent-description-icon" />
+                  </div>
+                  <div className="recruit-talent-description-title-box">
+                    <div className="recruit-talent-description-title">열정</div>
+                    <div className="recruit-talent-description-sub-title">
+                      Passion
+                    </div>
+                  </div>
+                  <div className="recruit-talent-description-article">
+                    <div className="recruit-talent-description-article-bold">
+                      매사에 의욕이 넘치며 성과창출을 목표로 부단히 노력하는
+                      인재
+                    </div>
+                    본인의 업무와 조직의 성공에 대한 열렬한 애정을 가지고,
+                    <br />
+                    적극적이고, 능동적인 자세로 일하는 인재
+                    <br />
+                  </div>
+                </div>
+                <div className="recruit-talent-description-box-devide-line" />
+                <div className="recruit-talent-description-box">
+                  <div className="recruit-talent-description-icon-box">
+                    <HiLightBulb className="recruit-talent-description-icon" />
+                  </div>
+                  <div className="recruit-talent-description-title-box">
+                    <div className="recruit-talent-description-title">
+                      창의와 혁신
+                    </div>
+                    <div className="recruit-talent-description-sub-title">
+                      Creativity
+                      <br />& Innovation
+                    </div>
+                  </div>
+                  <div className="recruit-talent-description-article">
+                    <div className="recruit-talent-description-article-bold">
+                      창의적인 시각으로 혁신을 제안하는 인재
+                    </div>
+                    업무와 조직에 대한 새롭고 창의적인 시각으로
+                    <br />
+                    조직의 경쟁력을 높일 수 있는 혁신을 제안하고 실행하는 인재
+                    <br />
+                  </div>
+                </div>
+                <div className="recruit-talent-description-box-devide-line" />
+                <div className="recruit-talent-description-box">
+                  <div className="recruit-talent-description-icon-box">
+                    <GiTeamIdea className="recruit-talent-description-icon" />
+                  </div>
+                  <div className="recruit-talent-description-title-box">
+                    <div className="recruit-talent-description-title">
+                      팀워크
+                    </div>
+                    <div className="recruit-talent-description-sub-title">
+                      Teamwork
+                    </div>
+                  </div>
+                  <div className="recruit-talent-description-article">
+                    <div className="recruit-talent-description-article-bold">
+                      조직공통의 목표달성을 위해 힘쓰는 인재
+                    </div>
+                    조직공통의 목표 달성을 위해 상사, 동료, 부하, 타 부서를
+                    <br />
+                    적극적으로 도와주고, 협력을 이끌어내는 인재
+                    <br />
+                  </div>
+                </div>
+                <div className="recruit-talent-description-box-devide-line" />
+                <div className="recruit-talent-description-box">
+                  <div className="recruit-talent-description-icon-box">
+                    <BsPersonCheckFill className="recruit-talent-description-icon" />
+                  </div>
+                  <div className="recruit-talent-description-title-box">
+                    <div className="recruit-talent-description-title">
+                      책임감
+                    </div>
+                    <div className="recruit-talent-description-sub-title">
+                      Accountability
+                    </div>
+                  </div>
+                  <div className="recruit-talent-description-article">
+                    <div className="recruit-talent-description-article-bold">
+                      본인의 업무를 끝까지 완수해내며, 그 결과에 대해서도
+                      책임지려는 인재
+                    </div>
+                    자신의 업무에 대한 큰 사명감을 바탕으로 강한 추진력으로
+                    <br />
+                    업무를 완수해내며, 자신이 수행한 업무의 결과에 대해서도
+                    책임을 짐
+                    <br />
+                  </div>
+                </div>
+                <div className="recruit-talent-description-box-devide-line" />
+                <div className="recruit-talent-description-box">
+                  <div className="recruit-talent-description-icon-box">
+                    <RiCustomerService2Fill className="recruit-talent-description-icon" />
+                  </div>
+                  <div className="recruit-talent-description-title-box">
+                    <div className="recruit-talent-description-title">
+                      고객지향
+                    </div>
+                    <div className="recruit-talent-description-sub-title">
+                      Customer Centered
+                    </div>
+                  </div>
+                  <div className="recruit-talent-description-article">
+                    <div className="recruit-talent-description-article-bold">
+                      고객의 입장에서 사고하고 행동하는 인재
+                    </div>
+                    고객의 입장에서 사고하고, 진정성으로 고객을 대함으로써
+                    <br />
+                    고객의 니즈 그 이상의 가치를 제공하는 인재
+                    <br />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        )}
+        {content === 2 && <div className="recruit-image-2" />}
       </div>
     </div>
   );
