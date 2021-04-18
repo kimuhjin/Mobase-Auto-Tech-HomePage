@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/static/css/main.4753955d.chunk.css",
-    "main.js": "/static/js/main.4c771d84.chunk.js",
-    "main.js.map": "/static/js/main.4c771d84.chunk.js.map",
+    "main.css": "/static/css/main.9f99db2c.chunk.css",
+    "main.js": "/static/js/main.35ad61b6.chunk.js",
+    "main.js.map": "/static/js/main.35ad61b6.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.22d40ac3.js",
     "runtime-main.js.map": "/static/js/runtime-main.22d40ac3.js.map",
     "static/js/2.5a66a01b.chunk.js": "/static/js/2.5a66a01b.chunk.js",
@@ -10,7 +10,7 @@
     "static/js/3.b20f5b45.chunk.js": "/static/js/3.b20f5b45.chunk.js",
     "static/js/3.b20f5b45.chunk.js.map": "/static/js/3.b20f5b45.chunk.js.map",
     "index.html": "/index.html",
-    "static/css/main.4753955d.chunk.css.map": "/static/css/main.4753955d.chunk.css.map",
+    "static/css/main.9f99db2c.chunk.css.map": "/static/css/main.9f99db2c.chunk.css.map",
     "static/js/2.5a66a01b.chunk.js.LICENSE.txt": "/static/js/2.5a66a01b.chunk.js.LICENSE.txt",
     "static/media/Hitachi_logo.d9cf7465.png": "/static/media/Hitachi_logo.d9cf7465.png",
     "static/media/Multi-Input-Device.9db55056.png": "/static/media/Multi-Input-Device.9db55056.png",
@@ -35,7 +35,7 @@
   "entrypoints": [
     "static/js/runtime-main.22d40ac3.js",
     "static/js/2.5a66a01b.chunk.js",
-    "static/css/main.4753955d.chunk.css",
-    "static/js/main.4c771d84.chunk.js"
+    "static/css/main.9f99db2c.chunk.css",
+    "static/js/main.35ad61b6.chunk.js"
   ]
 }
