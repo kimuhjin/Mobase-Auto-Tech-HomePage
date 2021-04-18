@@ -1,21 +1,38 @@
 import "./Recruit.css";
 import React, { useState } from "react";
 import { AiOutlineRight, AiFillTrophy } from "react-icons/ai";
-import { BiRun, BiTimer } from "react-icons/bi";
+import { BiRun } from "react-icons/bi";
 import {
   HiLightBulb,
   HiOutlinePresentationChartBar,
   HiOutlineLightBulb,
 } from "react-icons/hi";
-import { GiTeamIdea } from "react-icons/gi";
+import {
+  GiTeamIdea,
+  GiForkKnifeSpoon,
+  GiClothes,
+  GiIsland,
+} from "react-icons/gi";
 import { BsPersonCheckFill, BsPlus } from "react-icons/bs";
-import { RiCustomerService2Fill } from "react-icons/ri";
-import { ImManWoman } from "react-icons/im";
+import {
+  RiCustomerService2Fill,
+  RiShoppingCart2Fill,
+  RiHandSanitizerFill,
+} from "react-icons/ri";
+import { ImManWoman, ImCalculator } from "react-icons/im";
 import { GoLaw } from "react-icons/go";
-import { FaFileInvoiceDollar, FaSearchDollar } from "react-icons/fa";
+import { BiBus } from "react-icons/bi";
+import {
+  FaFileInvoiceDollar,
+  FaSearchDollar,
+  FaBirthdayCake,
+  FaMedal,
+  FaDumbbell,
+  FaHeartbeat,
+} from "react-icons/fa";
 
 function Recruit() {
-  const [content, setContent] = useState(5);
+  const [content, setContent] = useState(1);
   const recruitList = [
     {
       id: 1,
@@ -59,25 +76,18 @@ function Recruit() {
         >
           복리후생
         </div>
+
         <div
           className={`recruit-sub-header-menu ${
             content === 4 ? "clicked" : ""
           }`}
           onClick={() => setContent(4)}
         >
-          직무소개
-        </div>
-        <div
-          className={`recruit-sub-header-menu ${
-            content === 5 ? "clicked" : ""
-          }`}
-          onClick={() => setContent(5)}
-        >
           채용공고
         </div>
       </div>
       <div className="recruit-contents">
-        {content === 5 && (
+        {content === 4 && (
           <>
             <div className="recruit-infomation-container">
               <div className="recruit-infomation-main-title">
@@ -556,6 +566,192 @@ function Recruit() {
                   </div>
                   <div className="recruit-promotion-table-title-column-bottom">
                     4
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        )}
+        {content === 3 && (
+          <div className="recruit-walfare-container">
+            <div className="recruit-development-main-title color-blue">
+              모베이스 오토테크는 구성원 모두의 행복을 추구하고 있습니다.
+            </div>
+            <div className="recruit-development-sub-title">
+              임직원의 생활안정 속에서 회사와 개인의 발전을 도모할 수 있도록
+              다양한 차원에서 복리후생을 지원하며,
+              <br />더 많은 혜택 제공을 통한 구성원 모두의 행복을 추구하고
+              있습니다.
+            </div>
+            <div className="recruit-walfare-devide-line" />
+            <div className="recruit-payment-container">
+              <div className="recruit-section-title-line" />
+              <div className="recruit-section-title">생활안정 지원</div>
+              <div className="recruit-walfare-description-box">
+                <div className="recruit-walfare-box-item">
+                  <FaSearchDollar className="recruit-walfare-icon-1" />
+
+                  <div>
+                    <div className="recruit-walfare-description-box-item-title">
+                      4대 보험
+                    </div>
+                    <div className="recruit-walfare-description-box-item-article">
+                      국민연금, 건강보험,
+                      <br />
+                      고용보험, 산재보험
+                    </div>
+                  </div>
+                </div>
+                <div className="recruit-walfare-box-item">
+                  <FaFileInvoiceDollar className="recruit-walfare-icon-2" />
+
+                  <div>
+                    <div className="recruit-walfare-description-box-item-title">
+                      경조금 및 경조휴가 부여
+                    </div>
+                    <div className="recruit-walfare-description-box-item-article">
+                      각종 경조사 휴가,
+                      <br />
+                      위로금, 축하금 등 지급
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div className="recruit-section-title-line"></div>
+              <div className="recruit-section-title">회사생활 지원</div>
+              <div className="recruit-walfare-support-container">
+                <div className="recruit-walfare-support-box">
+                  <div className="recruit-walfare-support-box-item">
+                    <BiBus className="recruit-walfare-support-box-item-icon" />
+                    <div>
+                      <div className="recruit-walfare-support-box-item-title">
+                        출퇴근 버스 운영
+                      </div>
+                      <div className="recruit-walfare-support-box-item-article">
+                        출퇴근 편의 제공
+                      </div>
+                    </div>
+                  </div>
+                  <div className="recruit-walfare-support-box-item">
+                    <GiForkKnifeSpoon className="recruit-walfare-support-box-item-icon" />
+                    <div>
+                      <div className="recruit-walfare-support-box-item-title">
+                        사내식당 운영
+                      </div>
+                      <div className="recruit-walfare-support-box-item-article">
+                        전문업체 위탁 운영
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div className="recruit-walfare-support-box">
+                  <div className="recruit-walfare-support-box-item">
+                    <GiClothes className="recruit-walfare-support-box-item-icon" />
+                    <div>
+                      <div className="recruit-walfare-support-box-item-title">
+                        근무복 지원
+                      </div>
+                      <div className="recruit-walfare-support-box-item-article">
+                        춘하추동복 지급
+                      </div>
+                    </div>
+                  </div>
+                  <div className="recruit-walfare-support-box-item">
+                    <FaBirthdayCake className="recruit-walfare-support-box-item-icon" />
+                    <div>
+                      <div className="recruit-walfare-support-box-item-title">
+                        장기 근속자 예우
+                      </div>
+                      <div className="recruit-walfare-support-box-item-article">
+                        국내외 여행휴가 및 선물 증정
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div className="recruit-walfare-support-box">
+                  <div className="recruit-walfare-support-box-item">
+                    <FaMedal className="recruit-walfare-support-box-item-icon" />
+                    <div>
+                      <div className="recruit-walfare-support-box-item-title">
+                        각종 포상제도
+                      </div>
+                      <div className="recruit-walfare-support-box-item-article">
+                        사내 제안제도, 특허/실용신안/
+                        <br />
+                        우수사원 포상제도 등 운영
+                      </div>
+                    </div>
+                  </div>
+                  <div className="recruit-walfare-support-box-item">
+                    <RiShoppingCart2Fill className="recruit-walfare-support-box-item-icon" />
+                    <div>
+                      <div className="recruit-walfare-support-box-item-title">
+                        각종 편의시설 운영
+                      </div>
+                      <div className="recruit-walfare-support-box-item-article">
+                        매점, 자판기, 휴게실 등 쾌적한 휴식공간 제공
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div className="recruit-walfare-support-box">
+                  <div className="recruit-walfare-support-box-item">
+                    <GiIsland className="recruit-walfare-support-box-item-icon" />
+                    <div>
+                      <div className="recruit-walfare-support-box-item-title">
+                        휴무 근무수당 지금
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div className="recruit-section-title-line" />
+              <div className="recruit-section-title">건강증진 지원</div>
+              <div className="recruit-health-container">
+                <div className="recruit-health-box">
+                  <div className="recruit-health-box-icon-box">
+                    <FaDumbbell className="recruit-health-box-icon" />
+                  </div>
+                  <div className="recruit-health-box-title">채육시설 운영</div>
+                  <div className="recruit-health-box-article">
+                    헬스장, 축구/농구/족구
+                    <br />
+                    탁구장 및 샤워장 운영
+                  </div>
+                </div>
+                <div className="recruit-health-box">
+                  <div className="recruit-health-box-icon-box">
+                    <FaHeartbeat className="recruit-health-box-icon" />
+                  </div>
+                  <div className="recruit-health-box-title">
+                    정기 건강진단 실시
+                  </div>
+                  <div className="recruit-health-box-article">
+                    일반 건강진단,
+                    <br />
+                    특수 건강진단,
+                    <br />
+                    4대 암 검진 실시
+                  </div>
+                </div>
+                <div className="recruit-health-box">
+                  <div className="recruit-health-box-icon-box">
+                    <ImCalculator className="recruit-health-box-icon" />
+                  </div>
+                  <div className="recruit-health-box-title">작업환경 측정</div>
+                  <div className="recruit-health-box-article">
+                    연 2회 작업환경 측정
+                  </div>
+                </div>
+                <div className="recruit-health-box">
+                  <div className="recruit-health-box-icon-box">
+                    <RiHandSanitizerFill className="recruit-health-box-icon" />
+                  </div>
+                  <div className="recruit-health-box-title">방역소독</div>
+                  <div className="recruit-health-box-article">
+                    옥내외 전지역
+                    <br />
+                    수시 방역소독 실시
                   </div>
                 </div>
               </div>

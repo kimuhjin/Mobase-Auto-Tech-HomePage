@@ -613,7 +613,7 @@
   box-sizing: border-box;
   border-right: 1px solid #f0efef;
   border-bottom: 1px solid #f0efef;
-  font-size: 12px;
+  font-size: 13px;
   font-weight: 500;
 }
 .recruit-promotion-table-title-column {
@@ -626,7 +626,7 @@
   box-sizing: border-box;
   border-right: 1px solid #f0efef;
   border-bottom: 1px solid #f0efef;
-  font-size: 12px;
+  font-size: 13px;
   font-weight: 500;
 }
 .recruit-promotion-table-title-bottom {
@@ -639,7 +639,7 @@
   box-sizing: border-box;
   border-right: 1px solid #f0efef;
   border-bottom: 1px solid #f0efef;
-  font-size: 12px;
+  font-size: 13px;
 }
 .recruit-promotion-table-title-column-bottom {
   width: 118.3px;
@@ -651,6 +651,149 @@
   box-sizing: border-box;
   border-right: 1px solid #f0efef;
   border-bottom: 1px solid #f0efef;
-  font-size: 12px;
+  font-size: 13px;
   font-weight: 500;
+}
+.recruit-walfare-container {
+  width: 710px;
+}
+.recruit-walfare-description-box-item-title {
+  position: relative;
+  z-index: 3;
+  font-size: 18px;
+  font-weight: 500;
+  color: #363686;
+  text-align: center;
+}
+
+.recruit-walfare-description-box-item-article {
+  position: relative;
+  z-index: 3;
+  font-size: 12px;
+  margin-top: 10px;
+  text-align: center;
+}
+.recruit-walfare-icon-2 {
+  position: absolute;
+  left: 60px;
+  top: 20px;
+  z-index: 1;
+  font-size: 60px;
+  color: #36368611;
+}
+.recruit-walfare-icon-1 {
+  position: absolute;
+  left: 100px;
+  top: 20px;
+  z-index: 1;
+  font-size: 60px;
+  color: #36368611;
+}
+.recruit-walfare-box-item {
+  position: relative;
+  padding: 20px;
+  width: 50%;
+  height: 138px;
+  box-sizing: border-box;
+  border-right: 1px solid #f0efef;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.recruit-walfare-box-item:last-child {
+  border: none;
+}
+.recruit-walfare-description-box {
+  margin-top: 20px;
+  margin-bottom: 50px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+  border: 1px solid #f0efef;
+  box-sizing: border-box;
+}
+.recruit-walfare-devide-line {
+  margin: 30px 0px;
+  width: 100%;
+  height: 1px;
+  background-color: lightgray;
+}
+.recruit-walfare-support-container {
+  width: 710px;
+  box-sizing: border-box;
+  margin-top: 20px;
+  border-top: 1px solid lightgray;
+  margin-bottom: 50px;
+}
+.recruit-walfare-support-box {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+  border-bottom: 1px dashed #f0efef;
+}
+.recruit-walfare-support-box-item {
+  width: 50%;
+  height: 90px;
+  padding: 20px;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.recruit-walfare-support-box-item-icon {
+  margin-right: 40px;
+  font-size: 30px;
+  color: gray;
+}
+.recruit-walfare-support-box-item-title {
+  font-size: 14px;
+  font-weight: 500;
+}
+.recruit-walfare-support-box-item-article {
+  font-size: 12px;
+  margin-top: 12px;
+  color: #808080;
+}
+.recruit-walfare-devide-line {
+  margin: 30px 0px 60px;
+  width: 100%;
+  height: 1px;
+  background-color: #f0efef;
+}
+.recruit-health-container {
+  width: 710px;
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.recruit-health-box {
+}
+.recruit-health-box-icon-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 120px;
+  height: 120px;
+  box-sizing: border-box;
+  border-radius: 50%;
+  background-color: rgb(222, 240, 248);
+}
+.recruit-health-box-icon {
+  font-size: 40px;
+  color: #fff;
+}
+.recruit-health-box-title {
+  margin-top: 15px;
+  font-size: 14px;
+  font-weight: 500;
+  text-align: center;
+}
+.recruit-health-box-article {
+  margin-top: 10px;
+  font-size: 12px;
+  color: gray;
+  text-align: center;
 }
