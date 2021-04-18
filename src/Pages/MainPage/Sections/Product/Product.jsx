@@ -9,6 +9,7 @@ import instrumentPannerSwitch from "../../../../asset/image/instrument-panner-sw
 import centerFaciaSwitch from "../../../../asset/image/center-facia-switch.png";
 import consoleSwitch from "../../../../asset/image/console-switch.png";
 import sideCrushPadSwitch from "../../../../asset/image/side-crush-pad-switch.png";
+import fanMotor from "../../../../asset/image/fan-motor.png";
 
 function Product() {
   const [content, setContent] = useState(1);
@@ -38,7 +39,16 @@ function Product() {
           }`}
           onClick={() => setContent(3)}
         >
-          HMI(switch etc)
+          HMI
+        </div>
+
+        <div
+          className={`product-sub-header-menu ${
+            content === 4 ? "clicked" : ""
+          }`}
+          onClick={() => setContent(4)}
+        >
+          Fan Motor
         </div>
       </div>
       <div className="product-contents">
@@ -258,6 +268,40 @@ function Product() {
               방식으로 구분
               <br />- 조립방식에 따라 스위치 개별 조립형, 개별 스위치 BEZEL
               일체형, BODY 일체형으로 구분
+            </div>
+          </div>
+        )}
+        {content === 4 && (
+          <div className="product-introduce-container">
+            <div className="product-introduce-name-bar" />
+            <div className="product-introduce-name">전기자동차용 Fan Motor</div>
+            <div className="product-introduce-title">
+              <BiRadioCircle className="product-introduce-title-icon" /> 제품
+              사진
+            </div>
+            <div className="product-introduce-article">
+              <div className="product-introduce-image">
+                <img
+                  src={fanMotor}
+                  alt="FAN MOTOR"
+                  className="product-image-sm"
+                />
+              </div>
+            </div>
+            <div className="product-introduce-title">
+              <BiRadioCircle className="product-introduce-title-icon" /> 제품
+              개요
+            </div>
+            <div className="product-introduce-article">
+              전기자동차 및 HEV의 배터리를 냉각시켜 출력 성능 유지
+            </div>
+            <div className="product-introduce-title">
+              <BiRadioCircle className="product-introduce-title-icon" /> 제품
+              특징
+            </div>
+            <div className="product-introduce-article product-introduce-article-line-height">
+              - 저소음
+              <br />- 초경량
             </div>
           </div>
         )}

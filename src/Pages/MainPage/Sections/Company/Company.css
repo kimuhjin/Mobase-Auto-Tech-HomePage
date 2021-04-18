@@ -288,6 +288,8 @@ background-position: center;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  animation: fadeOut 1s backwards;
+  animation-delay: 0.2s;
 }
 .company-customer-world-pin-usa {
   position: relative;
@@ -299,6 +301,8 @@ background-position: center;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  animation: fadeOut 1s backwards;
+  animation-delay: 0.8s;
 }
 
 .company-customer-world-pin-title {
@@ -351,6 +355,8 @@ background-position: center;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  animation: fadeOut 1s backwards;
+  animation-delay: 0.2s;
 }
 .company-customer-world-pin-line-suwon {
   transform: rotate(25deg);
@@ -375,6 +381,14 @@ background-position: center;
   align-items: center;
   justify-content: center;
 }
+@keyframes fadeOut {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
 
 .company-customer-korea-pin-changwon {
   position: absolute;
@@ -387,6 +401,8 @@ background-position: center;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  animation: fadeOut 1s backwards;
+  animation-delay: 0.8s;
 }
 .company-customer-world-pin-line-denso {
   transform: rotate(150deg);
