@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/Mobase-Auto-Tech-HomePage/static/css/main.d547fe19.chunk.css",
-    "main.js": "/Mobase-Auto-Tech-HomePage/static/js/main.36336800.chunk.js",
-    "main.js.map": "/Mobase-Auto-Tech-HomePage/static/js/main.36336800.chunk.js.map",
-    "runtime-main.js": "/Mobase-Auto-Tech-HomePage/static/js/runtime-main.2fca3043.js",
-    "runtime-main.js.map": "/Mobase-Auto-Tech-HomePage/static/js/runtime-main.2fca3043.js.map",
-    "static/js/2.cfd186a2.chunk.js": "/Mobase-Auto-Tech-HomePage/static/js/2.cfd186a2.chunk.js",
-    "static/js/2.cfd186a2.chunk.js.map": "/Mobase-Auto-Tech-HomePage/static/js/2.cfd186a2.chunk.js.map",
-    "static/js/3.f93659b7.chunk.js": "/Mobase-Auto-Tech-HomePage/static/js/3.f93659b7.chunk.js",
-    "static/js/3.f93659b7.chunk.js.map": "/Mobase-Auto-Tech-HomePage/static/js/3.f93659b7.chunk.js.map",
+    "main.css": "/Mobase-Auto-Tech-HomePage/static/css/main.6ca4073e.chunk.css",
+    "main.js": "/Mobase-Auto-Tech-HomePage/static/js/main.9f259a2d.chunk.js",
+    "main.js.map": "/Mobase-Auto-Tech-HomePage/static/js/main.9f259a2d.chunk.js.map",
+    "runtime-main.js": "/Mobase-Auto-Tech-HomePage/static/js/runtime-main.c9c24d00.js",
+    "runtime-main.js.map": "/Mobase-Auto-Tech-HomePage/static/js/runtime-main.c9c24d00.js.map",
+    "static/js/2.301706f0.chunk.js": "/Mobase-Auto-Tech-HomePage/static/js/2.301706f0.chunk.js",
+    "static/js/2.301706f0.chunk.js.map": "/Mobase-Auto-Tech-HomePage/static/js/2.301706f0.chunk.js.map",
+    "static/js/3.b20f5b45.chunk.js": "/Mobase-Auto-Tech-HomePage/static/js/3.b20f5b45.chunk.js",
+    "static/js/3.b20f5b45.chunk.js.map": "/Mobase-Auto-Tech-HomePage/static/js/3.b20f5b45.chunk.js.map",
     "index.html": "/Mobase-Auto-Tech-HomePage/index.html",
-    "static/css/main.d547fe19.chunk.css.map": "/Mobase-Auto-Tech-HomePage/static/css/main.d547fe19.chunk.css.map",
-    "static/js/2.cfd186a2.chunk.js.LICENSE.txt": "/Mobase-Auto-Tech-HomePage/static/js/2.cfd186a2.chunk.js.LICENSE.txt",
+    "static/css/main.6ca4073e.chunk.css.map": "/Mobase-Auto-Tech-HomePage/static/css/main.6ca4073e.chunk.css.map",
+    "static/js/2.301706f0.chunk.js.LICENSE.txt": "/Mobase-Auto-Tech-HomePage/static/js/2.301706f0.chunk.js.LICENSE.txt",
     "static/media/Multi-Input-Device.9db55056.png": "/Mobase-Auto-Tech-HomePage/static/media/Multi-Input-Device.9db55056.png",
     "static/media/MainPage.css": "/Mobase-Auto-Tech-HomePage/static/media/banner-2.d66421f5.jpeg",
     "static/media/center-facia-switch.d17d55d1.png": "/Mobase-Auto-Tech-HomePage/static/media/center-facia-switch.d17d55d1.png",
@@ -25,9 +25,9 @@
     "static/media/steering-wheel-remote-control-switch.d50942b2.png": "/Mobase-Auto-Tech-HomePage/static/media/steering-wheel-remote-control-switch.d50942b2.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.2fca3043.js",
-    "static/js/2.cfd186a2.chunk.js",
-    "static/css/main.d547fe19.chunk.css",
-    "static/js/main.36336800.chunk.js"
+    "static/js/runtime-main.c9c24d00.js",
+    "static/js/2.301706f0.chunk.js",
+    "static/css/main.6ca4073e.chunk.css",
+    "static/js/main.9f259a2d.chunk.js"
   ]
 }
