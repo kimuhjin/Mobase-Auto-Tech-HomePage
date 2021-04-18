@@ -12,6 +12,7 @@ import Hitachi_logo from "../../../../asset/image/Hitachi_logo.png";
 import Lg_logo from "../../../../asset/image/lg_logo.png";
 import Denso_logo from "../../../../asset/image/denso_logo.png";
 import Gm_logo from "../../../../asset/image/gm_logo.png";
+import MobaseElect_logo from "../../../../asset/image/mobase-elec_logo.png";
 function Company() {
   const [content, setContent] = useState(1);
   const [countrySelect, setCountrySelect] = useState("domestic");
@@ -332,8 +333,8 @@ function Company() {
                   <div className="company-customer-korea-pin-suwon">
                     <img
                       className="company-customer-company-logo-mobase"
-                      alr="HITACHI LOGO"
-                      src={Hitachi_logo}
+                      alr="MOBASE LOGO"
+                      src={MobaseElect_logo}
                     ></img>
                     <div className="company-customer-world-pin-line-suwon" />
                     <div className="company-customer-world-pin-contents-suwon">
