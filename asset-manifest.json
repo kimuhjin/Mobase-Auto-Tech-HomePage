@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/Mobase-Auto-Tech-HomePage/static/css/main.7e2aae49.chunk.css",
-    "main.js": "/Mobase-Auto-Tech-HomePage/static/js/main.c848c52a.chunk.js",
-    "main.js.map": "/Mobase-Auto-Tech-HomePage/static/js/main.c848c52a.chunk.js.map",
+    "main.css": "/Mobase-Auto-Tech-HomePage/static/css/main.fa74b7e3.chunk.css",
+    "main.js": "/Mobase-Auto-Tech-HomePage/static/js/main.23572784.chunk.js",
+    "main.js.map": "/Mobase-Auto-Tech-HomePage/static/js/main.23572784.chunk.js.map",
     "runtime-main.js": "/Mobase-Auto-Tech-HomePage/static/js/runtime-main.c9c24d00.js",
     "runtime-main.js.map": "/Mobase-Auto-Tech-HomePage/static/js/runtime-main.c9c24d00.js.map",
     "static/js/2.5a66a01b.chunk.js": "/Mobase-Auto-Tech-HomePage/static/js/2.5a66a01b.chunk.js",
@@ -10,12 +10,13 @@
     "static/js/3.b20f5b45.chunk.js": "/Mobase-Auto-Tech-HomePage/static/js/3.b20f5b45.chunk.js",
     "static/js/3.b20f5b45.chunk.js.map": "/Mobase-Auto-Tech-HomePage/static/js/3.b20f5b45.chunk.js.map",
     "index.html": "/Mobase-Auto-Tech-HomePage/index.html",
-    "static/css/main.7e2aae49.chunk.css.map": "/Mobase-Auto-Tech-HomePage/static/css/main.7e2aae49.chunk.css.map",
+    "static/css/main.fa74b7e3.chunk.css.map": "/Mobase-Auto-Tech-HomePage/static/css/main.fa74b7e3.chunk.css.map",
     "static/js/2.5a66a01b.chunk.js.LICENSE.txt": "/Mobase-Auto-Tech-HomePage/static/js/2.5a66a01b.chunk.js.LICENSE.txt",
     "static/media/Hitachi_logo.d9cf7465.png": "/Mobase-Auto-Tech-HomePage/static/media/Hitachi_logo.d9cf7465.png",
     "static/media/Multi-Input-Device.9db55056.png": "/Mobase-Auto-Tech-HomePage/static/media/Multi-Input-Device.9db55056.png",
     "static/media/MainPage.css": "/Mobase-Auto-Tech-HomePage/static/media/banner-2.d66421f5.jpeg",
     "static/media/center-facia-switch.d17d55d1.png": "/Mobase-Auto-Tech-HomePage/static/media/center-facia-switch.d17d55d1.png",
+    "static/media/Company.css": "/Mobase-Auto-Tech-HomePage/static/media/mobase_history.aa7cdc0b.png",
     "static/media/Contact.css": "/Mobase-Auto-Tech-HomePage/static/media/company-pic.9198fdd6.png",
     "static/media/console-switch.a3b41676.png": "/Mobase-Auto-Tech-HomePage/static/media/console-switch.a3b41676.png",
     "static/media/denso_logo.97f86de4.png": "/Mobase-Auto-Tech-HomePage/static/media/denso_logo.97f86de4.png",
@@ -36,7 +37,7 @@
   "entrypoints": [
     "static/js/runtime-main.c9c24d00.js",
     "static/js/2.5a66a01b.chunk.js",
-    "static/css/main.7e2aae49.chunk.css",
-    "static/js/main.c848c52a.chunk.js"
+    "static/css/main.fa74b7e3.chunk.css",
+    "static/js/main.23572784.chunk.js"
   ]
 }
