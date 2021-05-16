@@ -13,6 +13,8 @@ import Lg_logo from "../../../../asset/image/lg_logo.png";
 import Denso_logo from "../../../../asset/image/denso_logo.png";
 import Gm_logo from "../../../../asset/image/gm_logo.png";
 import MobaseElect_logo from "../../../../asset/image/mobase-elec_logo.png";
+import mobase_history from "../../../../asset/image/mobase_history.png";
+
 function Company() {
   const [content, setContent] = useState(1);
   const [countrySelect, setCountrySelect] = useState("domestic");
@@ -154,43 +156,91 @@ function Company() {
           <div className="company-history-container">
             <div className="company-history-title-line"></div>
             <div className="company-history-title">History</div>
+            <div className="history-content-container">
+              <div className="history-content"></div>
+            </div>
+            <div className="history-content-container-bg" />
           </div>
         )}
         {content === 3 && (
-          <div className="company-certification-container">
-            <div className="company-certification-box">
-              <div className="company-certification-image"></div>
-              <div className="company-certification-title">IATF</div>
-              <div className="company-certification-date">2021.04</div>
-            </div>
-            <div className="company-certification-box">
-              <div className="company-certification-image"></div>
-              <div className="company-certification-title">
-                SQ Certification for HKMC
+          <div className="company-certification-wrapper">
+            <div className="company-certification-container">
+              <div className="company-certification-box">
+                <div className="company-certification-image1" />
+                <div className="company-certification-title">
+                  SQ인증서 (증착)
+                </div>
+                {/* <div className="company-certification-date">2021.04</div> */}
               </div>
-              <div className="company-certification-date">2021.04</div>
-            </div>
-            <div className="company-certification-box">
-              <div className="company-certification-image"></div>
-              <div className="company-certification-title">ISO 13001</div>
-              <div className="company-certification-date">2021.04</div>
-            </div>
-            <div className="company-certification-box">
-              <div className="company-certification-image"></div>
-              <div className="company-certification-title">
-                QSB Certification for GM
+              <div className="company-certification-box">
+                <div className="company-certification-image2"></div>
+                <div className="company-certification-title">
+                  SQ인증서 (조립)
+                </div>
+                {/* <div className="company-certification-date">2021.04</div> */}
               </div>
-              <div className="company-certification-date">2021.04</div>
+              <div className="company-certification-box">
+                <div className="company-certification-image3"></div>
+                <div className="company-certification-title">
+                  SQ인증서 (도장)
+                </div>
+                {/* <div className="company-certification-date">2021.04</div> */}
+              </div>
+              <div className="company-certification-box">
+                <div className="company-certification-image4"></div>
+                <div className="company-certification-title">
+                  SQ인증서 (사출)
+                </div>
+                {/* <div className="company-certification-date">2021.04</div> */}
+              </div>
+              <div className="company-certification-box">
+                <div className="company-certification-image5"></div>
+                <div className="company-certification-title">IATF 16969</div>
+                {/* <div className="company-certification-date">2021.04</div> */}
+              </div>
+              <div className="company-certification-no-box"></div>
             </div>
-            <div className="company-certification-box">
-              <div className="company-certification-image"></div>
-              <div className="company-certification-title">xxx 인증서</div>
-              <div className="company-certification-date">2021.04</div>
-            </div>
-            <div className="company-certification-box">
-              <div className="company-certification-image"></div>
-              <div className="company-certification-title">xxx 인증서</div>
-              <div className="company-certification-date">2021.04</div>
+            <div className="company-certification-time-container">
+              <div className="company-certification-time-content">
+                <div className="company-certification-time-year">2019</div>
+                <div className="company-certification-time-dot">·</div>
+                <div className="company-certification-time-month">06</div>
+                <div className="company-certification-time-title">
+                  SQ인증서 (사출)
+                </div>
+              </div>
+              <div className="company-certification-time-content">
+                <div className="company-certification-time-year">2020</div>
+                <div className="company-certification-time-dot">·</div>
+                <div className="company-certification-time-month">11</div>
+                <div className="company-certification-time-title">
+                  IATF 16969
+                </div>
+              </div>
+              <div className="company-certification-time-content">
+                <div className="company-certification-time-year">2021</div>
+                <div className="company-certification-time-dot">·</div>
+                <div className="company-certification-time-month">01</div>
+                <div className="company-certification-time-title">
+                  SQ인증서 (증착)
+                </div>
+              </div>
+              <div className="company-certification-time-content">
+                <div className="company-certification-time-year"></div>
+                <div className="company-certification-time-dot">·</div>
+                <div className="company-certification-time-month">01</div>
+                <div className="company-certification-time-title">
+                  SQ인증서 (조립)
+                </div>
+              </div>
+              <div className="company-certification-time-content">
+                <div className="company-certification-time-year"></div>
+                <div className="company-certification-time-dot">·</div>
+                <div className="company-certification-time-month">01</div>
+                <div className="company-certification-time-title">
+                  SQ인증서 (도장)
+                </div>
+              </div>
             </div>
           </div>
         )}
