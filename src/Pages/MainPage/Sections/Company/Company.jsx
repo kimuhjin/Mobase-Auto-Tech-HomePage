@@ -268,30 +268,7 @@ function Company() {
             </div>
             <div className="company-business-area-contents-line" />
             {/* */}
-            <div className="company-business-area-title">
-              ◼ 자동차용 전자 UNIT
-            </div>
-            <div className="company-business-area-image"></div>
-            <div className="company-business-area-contents">
-              <b>개요</b>
-              <br />
-              급속도록 발전하고 있는 자동차 기술에 따라 자동차의 각종 부품 또한
-              기존의 기계적인 환경에서 전자, 전기, IT, BIO를 아우르는 융복합
-              <br />
-              기술 환경으로 변화하고 있습니다.
-              <br />
-              모베이스 오토테크는 자동차의 전자화, 지능화 추세에 따라 두뇌역할을
-              하는 필수적인 BCM 부터 편의성을 극대화 하기 위한 무선 충전 등의
-              기술 및 제품 개발에 대하여 지속적인 투자를 하고 있습니다.
-              <div className="company-business-area-contents-dashed-line" />
-              <b>주요 품목</b>
-              <br />
-              BCM(Body Control Module), 이모빌라이저 시스템, LDC(Low-Voltage
-              DCDC Converter), PSM(Power Seat Module),
-              <br />
-              휴대폰 무선충전 시스템, 냉·온장컵 모듈, 기타
-            </div>
-            <div className="company-business-area-contents-line" />
+
             {/* */}
             <div className="company-business-area-title">◼ 자동차용 SWITCH</div>
             <div className="company-business-area-image"></div>
@@ -316,34 +293,6 @@ function Company() {
               인스트루먼트 판넬 스위치
             </div>
             <div className="company-business-area-contents-line" />
-            {/* */}
-            <div className="company-business-area-title">
-              ◼ 마그네슘 다이캐스팅
-            </div>
-            <div className="company-business-area-image"></div>
-            <div className="company-business-area-contents">
-              <b>개요</b>
-              <br />
-              마그네슘은 현재 사용되는 금속 중에서도 매장량이 매우 풍부하고 100%
-              재황용이 가능한 금속입니다.
-              <br />
-              자동차의 전자화와 더불어 친환경 기술이 대거 적용되는 추세로
-              마그네슘의 활용가치가 주목받고 있습니다. 이 마그네슘은 전자파
-              차폐효과가 매우 뛰어나며 동일한 질량일 경우 강철 대비 1/4의 무게만
-              가질 정도로 경량성 또한 매우 우수합니다.
-              <br />
-              모베이스 오토테크는 1993년부터 마그네슘 다이캐스팅 사업을 시작하여
-              20년이 넘는 기간 동안 축적한 노하우를 통해 우수한 마그네슘 제품을
-              생산하고 있습니다,.
-              <br />
-              획기적으로 발전시키고 있습니다.
-              <div className="company-business-area-contents-dashed-line" />
-              <b>주요 적용(가능) 품목</b>
-              <br />
-              자동차용 각종 구조물(스티어링 휠, 스티어링 칼럼 락, 시트 프레임
-              등), IT 기기(휴대폰, 태블릿 PC)케이스, 의료기기 구조물 및 케이스,
-              전동공구 프레임, 광학기기 프레임, 화장품 부속 도구 등
-            </div>
             {/* */}
           </div>
         )}
@@ -425,9 +374,9 @@ function Company() {
                   ></img>
                   <div className="company-customer-world-pin-usa">
                     <img
-                      className="company-customer-company-logo-lg"
-                      alr="LG LOGO"
-                      src={Lg_logo}
+                      className="company-customer-company-logo"
+                      alr="HITACHI LOGO"
+                      src={Hitachi_logo}
                     ></img>
                     <div className="company-customer-world-pin-line-poland" />
                     <div className="company-customer-world-pin-contents">
@@ -439,10 +388,11 @@ function Company() {
                   </div>
                   <div className="company-customer-world-pin-poland">
                     <img
-                      className="company-customer-company-logo"
-                      alr="HITACHI LOGO"
-                      src={Hitachi_logo}
+                      className="company-customer-company-logo-lg"
+                      alr="LG LOGO"
+                      src={Lg_logo}
                     ></img>
+
                     <div className="company-customer-world-pin-line-poland" />
                     <div className="company-customer-world-pin-contents">
                       <RiMapPin2Line className="company-customer-pin-icon" />

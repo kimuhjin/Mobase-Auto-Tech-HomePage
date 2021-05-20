@@ -116,6 +116,11 @@ background-position: center;
   height: 370px;
 }
 
+.product-image-m {
+  margin-top: 15px;
+  width: 270px;
+  height: 270px;
+}
 .product-image-sm {
   width: 350px;
   height: 250px;

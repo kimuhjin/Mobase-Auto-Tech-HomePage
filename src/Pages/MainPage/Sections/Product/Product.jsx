@@ -65,7 +65,7 @@ function Product() {
                 <img
                   src={multiInputDevice_image}
                   alt="MULTI INPUT DEVICE"
-                  className="product-image"
+                  className="product-image-m"
                 />
               </div>
             </div>
