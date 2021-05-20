@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/Mobase-Auto-Tech-HomePage/static/css/main.133caaa0.chunk.css",
-    "main.js": "/Mobase-Auto-Tech-HomePage/static/js/main.23572784.chunk.js",
-    "main.js.map": "/Mobase-Auto-Tech-HomePage/static/js/main.23572784.chunk.js.map",
+    "main.css": "/Mobase-Auto-Tech-HomePage/static/css/main.0e15ce0f.chunk.css",
+    "main.js": "/Mobase-Auto-Tech-HomePage/static/js/main.8f070155.chunk.js",
+    "main.js.map": "/Mobase-Auto-Tech-HomePage/static/js/main.8f070155.chunk.js.map",
     "runtime-main.js": "/Mobase-Auto-Tech-HomePage/static/js/runtime-main.c9c24d00.js",
     "runtime-main.js.map": "/Mobase-Auto-Tech-HomePage/static/js/runtime-main.c9c24d00.js.map",
     "static/js/2.5a66a01b.chunk.js": "/Mobase-Auto-Tech-HomePage/static/js/2.5a66a01b.chunk.js",
@@ -10,10 +10,10 @@
     "static/js/3.b20f5b45.chunk.js": "/Mobase-Auto-Tech-HomePage/static/js/3.b20f5b45.chunk.js",
     "static/js/3.b20f5b45.chunk.js.map": "/Mobase-Auto-Tech-HomePage/static/js/3.b20f5b45.chunk.js.map",
     "index.html": "/Mobase-Auto-Tech-HomePage/index.html",
-    "static/css/main.133caaa0.chunk.css.map": "/Mobase-Auto-Tech-HomePage/static/css/main.133caaa0.chunk.css.map",
+    "static/css/main.0e15ce0f.chunk.css.map": "/Mobase-Auto-Tech-HomePage/static/css/main.0e15ce0f.chunk.css.map",
     "static/js/2.5a66a01b.chunk.js.LICENSE.txt": "/Mobase-Auto-Tech-HomePage/static/js/2.5a66a01b.chunk.js.LICENSE.txt",
     "static/media/Hitachi_logo.d9cf7465.png": "/Mobase-Auto-Tech-HomePage/static/media/Hitachi_logo.d9cf7465.png",
-    "static/media/Multi-Input-Device.9db55056.png": "/Mobase-Auto-Tech-HomePage/static/media/Multi-Input-Device.9db55056.png",
+    "static/media/Multi-Input-Device.45f3b6d2.png": "/Mobase-Auto-Tech-HomePage/static/media/Multi-Input-Device.45f3b6d2.png",
     "static/media/MainPage.css": "/Mobase-Auto-Tech-HomePage/static/media/banner-2.d66421f5.jpeg",
     "static/media/center-facia-switch.d17d55d1.png": "/Mobase-Auto-Tech-HomePage/static/media/center-facia-switch.d17d55d1.png",
     "static/media/Company.css": "/Mobase-Auto-Tech-HomePage/static/media/mobase_history.aa7cdc0b.png",
@@ -37,7 +37,7 @@
   "entrypoints": [
     "static/js/runtime-main.c9c24d00.js",
     "static/js/2.5a66a01b.chunk.js",
-    "static/css/main.133caaa0.chunk.css",
-    "static/js/main.23572784.chunk.js"
+    "static/css/main.0e15ce0f.chunk.css",
+    "static/js/main.8f070155.chunk.js"
   ]
 }
