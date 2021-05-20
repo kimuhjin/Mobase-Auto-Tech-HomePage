@@ -11,8 +11,7 @@ import consoleSwitch from "../../../../asset/image/console-switch.png";
 import sideCrushPadSwitch from "../../../../asset/image/side-crush-pad-switch.png";
 import fanMotor from "../../../../asset/image/fan-motor.png";
 
-function Product() {
-  const [content, setContent] = useState(1);
+function Product({ content, setContent }) {
   return (
     <div className="product-container">
       <div className="product-sub-header">

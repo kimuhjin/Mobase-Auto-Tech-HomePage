@@ -2,9 +2,7 @@ import "./Header.css";
 import logo from "../../asset/image/logo.png";
 import React, { useState } from "react";
 
-function Header() {
-  const [clicked, setClicked] = useState("");
-
+function Header({ clicked, setClicked }) {
   //  setInterval(() => {
   //     let presentPosition = document.querySelector('html').scrollTop+80;
   //     if(presentPosition>=935){

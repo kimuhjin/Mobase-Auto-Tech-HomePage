@@ -28,7 +28,16 @@
     opacity: 1;
   }
 }
+@keyframes bannerFadeOut {
+  from {
+    opacity: 0.2;
+  }
+  to {
+    opacity: 1;
+  }
+}
 .main-page-banner-container {
+  position: relative;
   width: 1200px;
   margin: 0px auto;
   /* padding:0px 285px; */
@@ -65,16 +74,48 @@
   justify-content: flex-start;
   align-items: center;
 } */
-.main-page-banner1 {
-  margin-top: 30px;
+.picture-dot-container {
+  position: absolute;
+  padding: 0px 120px;
+  box-sizing: border-box;
+  top: 340px;
+  z-index: 3;
+  width: 100%;
+  height: 20px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.picture-dot {
+  width: 13px;
+  height: 13px;
+  margin-right: 10px;
+  border-radius: 50%;
+  background-color: #363686;
+  box-sizing: border-box;
+  cursor: pointer;
+}
+.picture-dot-disable {
+  width: 13px;
+  height: 13px;
+  margin-right: 10px;
+  border-radius: 50%;
+  background-color: gray;
+  box-sizing: border-box;
+  cursor: pointer;
+}
+.main-page-banner {
+  margin-top: 50px;
   width: 100%;
   height: 367px;
-  background-image: url(../../asset/image/banner-1.jpeg);
+  /* background-image: url(../../asset/image/banner-1.jpeg);
   background-repeat: no-repeat;
-  background-position: center;
+  background-position: center; */
+  object-fit: none;
+
+  animation: bannerFadeOut 1s ease-in-out;
 }
 .main-page-banner2 {
-  margin-bottom: 50px;
   width: 100%;
   height: 367px;
   background-image: url(../../asset/image/banner-2.jpeg);
@@ -88,4 +129,191 @@
   display: flex;
   justify-content: center;
   align-items: center;
+}
+.main-page-menu-container {
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding: 30px 30px 35px;
+  box-sizing: border-box;
+  background-color: #fcfcfce6;
+  margin-bottom: 50px;
+}
+.main-page-menu-title {
+  font-size: 18px;
+  font-weight: 500;
+  color: #363686;
+  margin-bottom: 20px;
+}
+.main-page-menu-content {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 15px 20px 20px 20px;
+  box-sizing: border-box;
+  height: 250px;
+  background-color: #fff;
+}
+
+.main-page-menu-content-product-container {
+  margin-right: 20px;
+}
+.main-page-menu-content-product-title-sm {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 14px;
+  font-weight: 500;
+  color: #000;
+  margin-bottom: 15px;
+}
+.main-page-menu-content-product-title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 14px;
+  font-weight: 500;
+  color: #000;
+  margin-bottom: 15px;
+}
+.main-page-menu-content-product-picture-box {
+  width: 160px;
+  height: 160px;
+  border: 1px solid #f0f0f0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-page-menu-content-product-picture-1 {
+  margin-top: 10px;
+  width: 120px;
+  height: 120px;
+  background-image: url(../../asset/image/Multi-Input-Device.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+.main-page-menu-content-product-picture-2 {
+  width: 140px;
+  height: 140px;
+  background-image: url(../../asset/image/foldingNcolumn.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+.main-page-menu-content-product-picture-3 {
+  width: 140px;
+  height: 140px;
+  background-image: url(../../asset/image/steering-wheel-remote-control-switch.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+.main-page-menu-content-product-picture-4 {
+  margin-top: 10px;
+  width: 100px;
+  height: 100px;
+  background-image: url(../../asset/image/fan-motor.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+.main-page-menu-content-product-container:last-child {
+  margin: 0px;
+}
+.main-page-menu {
+  margin-right: 100px;
+}
+.main-page-menu:last-child {
+  margin: 0px;
+}
+.product-link-icon {
+  width: 14px;
+  height: 14px;
+  color: #f0f0f0;
+  cursor: pointer;
+}
+.product-link-box {
+  width: 16px;
+  height: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #f0f0f0;
+}
+.main-page-menu-content-customer-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 45px;
+}
+.main-page-menu-content-customer-content-line {
+  width: 100%;
+  height: 1px;
+  border-bottom: 1px dashed #f0f0f0;
+}
+
+.main-page-menu-content-customer-content:last-child {
+  border: 0px;
+}
+.main-page-menu-content-customer-content-logo-1 {
+  width: 110px;
+  height: 40px;
+  background-image: url(../../asset/image/mobase-elec_logo.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+.main-page-menu-content-customer-content-logo-2 {
+  width: 80px;
+  height: 50px;
+  margin-left: -3px;
+  background-image: url(../../asset/image/denso_logo.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+.main-page-menu-content-customer-content-logo-3 {
+  width: 120px;
+  height: 32px;
+  margin-left: -25px;
+  background-image: url(../../asset/image/gm_flex-logo.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+.main-page-menu-content-customer-content-logo-4 {
+  width: 80px;
+  height: 35px;
+  margin-left: 2px;
+  background-image: url(../../asset/image/Hitachi_logo.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+.main-page-menu-content-customer-content-logo-5 {
+  width: 160px;
+  height: 200px;
+  margin-left: -10px;
+  background-image: url(../../asset/image/lg_logo.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+.main-page-menu-content-customer {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding: 5px 20px;
+  box-sizing: border-box;
+  width: 293px;
+  height: 250px;
+  background-color: #fff;
+}
+.main-page-menu-content-customer-content-title {
+  font-size: 12px;
 }
