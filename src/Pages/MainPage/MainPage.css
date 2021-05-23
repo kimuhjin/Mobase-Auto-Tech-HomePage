@@ -31,25 +31,16 @@
   }
 }
 @keyframes productsFadeOut {
-  0% {
-    transform: translateX(400px);
+  from {
+    opacity: 0;
   }
-  25% {
-    transform: translateX(0px);
-  }
-  50% {
-    transform: translateX(0px);
-  }
-  75% {
-    transform: translateX(0px);
-  }
-  100% {
-    transform: translateX(-400px);
+  to {
+    opacity: 1;
   }
 }
 
 .main-page-menu-content-product-container {
-  animation: productsFadeOut 8s backwards;
+  animation: productsFadeOut 2s backwards;
   margin-right: 20px;
 }
 .company-customer-country-container-main-page {
