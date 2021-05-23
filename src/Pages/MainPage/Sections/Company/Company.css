@@ -272,7 +272,11 @@ background-position: center;
   margin-bottom: 24px;
 }
 .company-business-area-image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   width: 710px;
+  background-color: white;
   height: 197px;
   border: 1px solid #f9f9f9;
 }
@@ -557,6 +561,26 @@ background-position: center;
   width: 100%;
   height: 550px;
   background-image: url(../../../../asset/image/mobase_history.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+.company-business-area-image-1 {
+  position: relative;
+  width: 100%;
+  height: 150px;
+  background-image: url(../../../../asset/image/columnandkey.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+.company-business-area-image-2 {
+  position: relative;
+  width: 100%;
+  margin-top: 20px;
+  margin-left: 60px;
+  height: 180px;
+  background-image: url(../../../../asset/image/switches.png);
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;

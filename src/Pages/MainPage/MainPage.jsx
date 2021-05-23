@@ -6,8 +6,8 @@ import Recruit from "./Sections/Recruit/Recruit.jsx";
 import Contact from "./Sections/Contact/Contact.jsx";
 import Rnd from "./Sections/Rnd/Rnd.jsx";
 import Business from "./Sections/Business/Business.jsx";
-import MainBannerPicture1 from "../../asset/image/banner-1.jpeg";
-import MainBannerPicture2 from "../../asset/image/banner-2.jpeg";
+import MainBannerPicture1 from "../../asset/image/new-banner-1.png";
+import MainBannerPicture2 from "../../asset/image/new-banner-2.png";
 import { HiOutlineChevronRight } from "react-icons/hi";
 ///
 import { GoLaw } from "react-icons/go";
@@ -69,11 +69,55 @@ function MainPage({ clicked, setClicked, content, setContent }) {
     <div className="main-page-container">
       <div className="main-page-banner-container">
         <>
-          <img
-            src={mainBannerPictureArray[MainBannerPicture].url}
-            key={mainBannerPictureArray[MainBannerPicture].url}
-            className="main-page-banner"
-          />
+          <div className="main-page-banner-picture-container">
+            <img
+              src={mainBannerPictureArray[MainBannerPicture].url}
+              key={mainBannerPictureArray[MainBannerPicture].url}
+              className="main-page-banner"
+            ></img>
+            {MainBannerPicture === 0 && (
+              <>
+                <div className="main-page-banner-picture-title">
+                  Synergy for you,
+                  <br />
+                  Mobase AutoTech
+                </div>
+                <div className="main-page-banner-picture-bar"></div>
+                <div className="main-page-banner-picture-article">
+                  차원 높은 품질과 서비스를 바탕으로
+                  <br />
+                  <div className="main-page-banner-picture-article-inline">
+                    감동을 선사하는 기업,&nbsp;&nbsp;
+                    <div className="main-page-banner-picture-article-blue color-white">
+                      모베이스 오토테크
+                    </div>
+                  </div>
+                </div>
+              </>
+            )}
+            {MainBannerPicture === 1 && (
+              <>
+                <div className="main-page-banner-picture-title-2">
+                  Talent,
+                  <br />
+                  Creativity,
+                  <br />
+                  Integrity
+                </div>
+                <div className="main-page-banner-picture-bar-white"></div>
+                <div className="main-page-banner-picture-article color-white">
+                  모베이스의 중심에 여러분이 있습니다.
+                  <br />
+                  <div className="main-page-banner-picture-article-inline color-white">
+                    사람중심의 기업,&nbsp;&nbsp;
+                    <div className="main-page-banner-picture-article-weight">
+                      모베이스 오토테크
+                    </div>
+                  </div>
+                </div>
+              </>
+            )}
+          </div>
           <div className="picture-dot-container">
             {mainBannerPictureArray.map((data, index) => {
               return (

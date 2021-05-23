@@ -247,7 +247,9 @@ function Company() {
         {content === 4 && (
           <div className="company-business-area-container">
             <div className="company-business-area-title">◼ SECURITY 시스템</div>
-            <div className="company-business-area-image"></div>
+            <div className="company-business-area-image">
+              <div className="company-business-area-image-1"></div>
+            </div>
             <div className="company-business-area-contents">
               <b>개요</b>
               <br />
@@ -271,7 +273,9 @@ function Company() {
 
             {/* */}
             <div className="company-business-area-title">◼ 자동차용 SWITCH</div>
-            <div className="company-business-area-image"></div>
+            <div className="company-business-area-image">
+              <div className="company-business-area-image-2"></div>
+            </div>
             <div className="company-business-area-contents">
               <b>개요</b>
               <br />
