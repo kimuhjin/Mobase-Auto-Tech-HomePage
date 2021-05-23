@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import "./MainPage.css";
 import Company from "./Sections/Company/Company.jsx";
 import Product from "./Sections/Product/Product.jsx";
@@ -9,20 +9,42 @@ import Business from "./Sections/Business/Business.jsx";
 import MainBannerPicture1 from "../../asset/image/banner-1.jpeg";
 import MainBannerPicture2 from "../../asset/image/banner-2.jpeg";
 import { HiOutlineChevronRight } from "react-icons/hi";
+///
+import { GoLaw } from "react-icons/go";
+import { IoIosPeople, IoIosPin } from "react-icons/io";
+import { FaHandHoldingHeart } from "react-icons/fa";
+import { FaRegHandshake } from "react-icons/fa";
+import { GrGroup, GrLocationPin } from "react-icons/gr";
+import { RiUserStarLine, RiMapPin2Line } from "react-icons/ri";
+import worldMap from "../../asset/image/world-map.png";
+import koreaMap from "../../asset/image/korea-half.png";
+import Hitachi_logo from "../../asset/image/Hitachi_logo.png";
+import Lg_logo from "../../asset/image/lg_logo.png";
+import Denso_logo from "../../asset/image/denso_logo.png";
+import Gm_logo from "../../asset/image/gm_logo.png";
+import MobaseElect_logo from "../../asset/image/mobase-elec_logo.png";
+import mobase_history from "../../asset/image/mobase_history.png";
 function MainPage({ clicked, setClicked, content, setContent }) {
   const [MainBannerPicture, setMainBannerPicture] = useState(0);
   let mainBannerPictureArray = [
     { url: MainBannerPicture1 },
     { url: MainBannerPicture2 },
   ];
-  let pictureCount = 0;
-  // const pictureTimer = setTimeout(() => {
-  //   pictureCount++;
-  //   if (MainBannerPicture === mainBannerPictureArray.length - 1) {
-  //     pictureCount = 0;
-  //   }
-  //   setMainBannerPicture(pictureCount);
-  // }, 3000);
+  const [MainBannerProducts, setMainBannerProducts] = useState(0);
+  let mainBannerProductsArray = [
+    { id: 0, name: "Control System", src: 1 },
+    { id: 0, name: "Security System", src: 2 },
+    { id: 1, name: "HMI", src: 3 },
+    { id: 1, name: "Fan Motor", src: 4 },
+  ];
+  let productsCount = 0;
+  setTimeout(() => {
+    productsCount++;
+    if (MainBannerProducts === 1) {
+      productsCount = 0;
+    }
+    setMainBannerProducts(productsCount);
+  }, 8000);
   function handleScrollTo(e) {
     setClicked(e.target.id);
     const locationName = `${e.target.id}-section`;
@@ -63,7 +85,6 @@ function MainPage({ clicked, setClicked, content, setContent }) {
                   }`}
                   key={index}
                   onClick={() => {
-                    // clearTimeout(pictureTimer);
                     setMainBannerPicture(index);
                   }}
                 ></div>
@@ -74,84 +95,128 @@ function MainPage({ clicked, setClicked, content, setContent }) {
             <div className="main-page-menu">
               <div className="main-page-menu-title">제품소개</div>
               <div className="main-page-menu-content">
-                <div className="main-page-menu-content-product-container">
-                  <div className="main-page-menu-content-product-title-sm">
-                    Control System
-                    <div className="product-link-box">
-                      <HiOutlineChevronRight
-                        className="product-link-icon"
-                        id="product"
-                        onClick={(e) => {
-                          handleScrollTo(e);
-                          setContent(1);
-                        }}
-                      />
-                    </div>
-                  </div>
-                  <div className="main-page-menu-content-product-picture-box">
-                    <div className="main-page-menu-content-product-picture-1" />
-                  </div>
-                </div>
-                <div className="main-page-menu-content-product-container">
-                  <div className="main-page-menu-content-product-title">
-                    Security System{" "}
-                    <div className="product-link-box">
-                      <HiOutlineChevronRight
-                        className="product-link-icon"
-                        id="product"
-                        onClick={(e) => {
-                          handleScrollTo(e);
-                          setContent(2);
-                        }}
-                      />
-                    </div>
-                  </div>
-                  <div className="main-page-menu-content-product-picture-box">
-                    <div className="main-page-menu-content-product-picture-2" />
-                  </div>
-                </div>
-                <div className="main-page-menu-content-product-container">
-                  <div className="main-page-menu-content-product-title">
-                    HMI{" "}
-                    <div className="product-link-box">
-                      <HiOutlineChevronRight
-                        className="product-link-icon"
-                        id="product"
-                        onClick={(e) => {
-                          handleScrollTo(e);
-                          setContent(3);
-                        }}
-                      />
-                    </div>
-                  </div>
-                  <div className="main-page-menu-content-product-picture-box">
-                    <div className="main-page-menu-content-product-picture-3" />
-                  </div>
-                </div>
-                <div className="main-page-menu-content-product-container">
-                  <div className="main-page-menu-content-product-title">
-                    Fan Motor
-                    <div className="product-link-box">
-                      <HiOutlineChevronRight
-                        className="product-link-icon"
-                        id="product"
-                        onClick={(e) => {
-                          handleScrollTo(e);
-                          setContent(4);
-                        }}
-                      />
-                    </div>
-                  </div>
-                  <div className="main-page-menu-content-product-picture-box">
-                    <div className="main-page-menu-content-product-picture-4" />
-                  </div>
+                <div className="main-page-menu-content-layout">
+                  {mainBannerProductsArray.map((data, index) => {
+                    if (MainBannerProducts === data.id) {
+                      return (
+                        <div
+                          className="main-page-menu-content-product-container"
+                          key={index}
+                        >
+                          <div className="main-page-menu-content-product-title-sm">
+                            {data.name}
+                            <div className="product-link-box">
+                              <HiOutlineChevronRight
+                                className="product-link-icon"
+                                id="product"
+                                onClick={(e) => {
+                                  handleScrollTo(e);
+                                  setContent(data.src);
+                                }}
+                              />
+                            </div>
+                          </div>
+                          <div className="main-page-menu-content-product-picture-box">
+                            <div
+                              className={`main-page-menu-content-product-picture-${data.src}`}
+                            />
+                          </div>
+                        </div>
+                      );
+                    }
+                  })}
                 </div>
               </div>
             </div>
             <div className="main-page-menu">
               <div className="main-page-menu-title">고객현황</div>
               <div className="main-page-menu-content-customer">
-                <div className="main-page-menu-content-customer-content">
+                {MainBannerProducts === 0 && (
+                  <div className="company-customer-country-container-main-page">
+                    <div className="company-customer-country-map-korea-container">
+                      <img
+                        className="company-customer-country-map-korea-main-page"
+                        alr="Korea Map"
+                        src={koreaMap}
+                      ></img>
+                      <div className="company-customer-korea-pin-suwon">
+                        <img
+                          className="company-customer-company-logo-mobase-mainpage"
+                          alr="MOBASE LOGO"
+                          src={MobaseElect_logo}
+                        ></img>
+                        <div className="company-customer-world-pin-line-suwon-mainpage" />
+                        <div className="company-customer-world-pin-contents-suwon">
+                          <RiMapPin2Line className="company-customer-pin-icon" />
+                          <div className="company-customer-world-pin-title">
+                            SUWON
+                          </div>
+                        </div>
+                      </div>
+                      <div className="company-customer-korea-pin-changwon">
+                        <img
+                          className="company-customer-company-logo-gm"
+                          alr="GM LOGO"
+                          src={Gm_logo}
+                        ></img>
+                        <div className="company-customer-world-pin-line-gm" />
+                        <img
+                          className="company-customer-company-logo-denso"
+                          alr="DENSO LOGO"
+                          src={Denso_logo}
+                        ></img>
+                        <div className="company-customer-world-pin-line-denso" />
+                        <div className="company-customer-world-pin-contents-changwon">
+                          <div className="company-customer-world-pin-title">
+                            CHANGWON
+                          </div>
+                          <RiMapPin2Line className="company-customer-pin-icon" />
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                )}
+                {MainBannerProducts === 1 && (
+                  <div className="company-customer-country-container-main-page-2">
+                    <div className="company-customer-country-map-korea-container">
+                      <img
+                        className="company-customer-country-map-world"
+                        alr="worldMap"
+                        src={worldMap}
+                      ></img>
+                      <div className="company-customer-world-pin-usa">
+                        <img
+                          className="company-customer-company-logo"
+                          alr="HITACHI LOGO"
+                          src={Hitachi_logo}
+                        ></img>
+                        <div className="company-customer-world-pin-line-poland" />
+                        <div className="company-customer-world-pin-contents">
+                          <RiMapPin2Line className="company-customer-pin-icon" />
+                          <div className="company-customer-world-pin-title">
+                            USA
+                          </div>
+                        </div>
+                      </div>
+                      <div className="company-customer-world-pin-poland">
+                        <img
+                          className="company-customer-company-logo-lg"
+                          alr="LG LOGO"
+                          src={Lg_logo}
+                        ></img>
+
+                        <div className="company-customer-world-pin-line-poland" />
+                        <div className="company-customer-world-pin-contents">
+                          <RiMapPin2Line className="company-customer-pin-icon" />
+                          <div className="company-customer-world-pin-title">
+                            POLAND
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                )}
+                {/* <div className="main-page-menu-content-customer-content">
                   <div className="main-page-menu-content-customer-content-logo-1" />
                   <div className="main-page-menu-content-customer-content-title">
                     모베이스 전자
@@ -184,7 +249,7 @@ function MainPage({ clicked, setClicked, content, setContent }) {
                   <div className="main-page-menu-content-customer-content-title">
                     LG 에너지 솔루션
                   </div>
-                </div>
+                </div>*/}
               </div>
             </div>
           </div>

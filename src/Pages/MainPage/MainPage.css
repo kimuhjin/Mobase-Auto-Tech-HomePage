@@ -19,7 +19,9 @@
   font-size: 48px;
   background-color: rgb(252, 252, 252, 0.9);
 }
-
+.asd {
+  color: rgb(54, 54, 134);
+}
 @keyframes fadeOut {
   from {
     opacity: 0;
@@ -28,13 +30,74 @@
     opacity: 1;
   }
 }
-@keyframes bannerFadeOut {
-  from {
-    opacity: 0.2;
+@keyframes productsFadeOut {
+  0% {
+    transform: translateX(400px);
   }
-  to {
-    opacity: 1;
+  25% {
+    transform: translateX(0px);
   }
+  50% {
+    transform: translateX(0px);
+  }
+  75% {
+    transform: translateX(0px);
+  }
+  100% {
+    transform: translateX(-400px);
+  }
+}
+
+.main-page-menu-content-product-container {
+  animation: productsFadeOut 8s backwards;
+  margin-right: 20px;
+}
+.company-customer-country-container-main-page {
+  bottom: 300px;
+  left: -20px;
+  position: relative;
+  /* width: 710px; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transform: scale(0.75);
+}
+.company-customer-company-logo-mobase-mainpage {
+  position: relative;
+  left: -275px;
+  top: 80px;
+  width: 120px;
+}
+.company-customer-world-pin-line-suwon-mainpage {
+  transform: rotate(0deg);
+  position: relative;
+  top: 40px;
+  right: 130px;
+  width: 150px;
+  height: 2px;
+  border-top: 2px dashed gray;
+  margin-bottom: 25px;
+  margin-top: 25px;
+}
+.company-customer-country-map-korea-main-page {
+  margin-top: 290px;
+  position: relative;
+  width: 350px;
+}
+.company-customer-country-container-main-page-2 {
+  bottom: 85px;
+  left: -20px;
+  position: relative;
+  /* width: 710px; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transform: scale(0.7);
+}
+
+.main-page-menu-content-layout {
+  min-width: 100px;
+  display: flex;
 }
 .main-page-banner-container {
   position: relative;
@@ -148,6 +211,8 @@
 }
 .main-page-menu-content {
   display: flex;
+  position: relative;
+  overflow: hidden;
   justify-content: flex-start;
   align-items: center;
   padding: 15px 20px 20px 20px;
@@ -156,9 +221,6 @@
   background-color: #fff;
 }
 
-.main-page-menu-content-product-container {
-  margin-right: 20px;
-}
 .main-page-menu-content-product-title-sm {
   display: flex;
   justify-content: space-between;
@@ -310,7 +372,7 @@
   align-items: flex-start;
   padding: 5px 20px;
   box-sizing: border-box;
-  width: 293px;
+  width: 657px;
   height: 250px;
   background-color: #fff;
 }
