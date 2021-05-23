@@ -6,8 +6,8 @@ import Recruit from "./Sections/Recruit/Recruit.jsx";
 import Contact from "./Sections/Contact/Contact.jsx";
 import Rnd from "./Sections/Rnd/Rnd.jsx";
 import Business from "./Sections/Business/Business.jsx";
-import MainBannerPicture1 from "../../asset/image/new-banner-1.png";
-import MainBannerPicture2 from "../../asset/image/new-banner-2.png";
+import MainBannerPicture1 from "../../asset/image/banner-1.png";
+import MainBannerPicture2 from "../../asset/image/banner-2.png";
 import { HiOutlineChevronRight } from "react-icons/hi";
 ///
 import { GoLaw } from "react-icons/go";
@@ -105,7 +105,7 @@ function MainPage({ clicked, setClicked, content, setContent }) {
                   Integrity
                 </div>
                 <div className="main-page-banner-picture-bar-white"></div>
-                <div className="main-page-banner-picture-article color-white">
+                <div className="main-page-banner-picture-article-2 color-white">
                   모베이스의 중심에 여러분이 있습니다.
                   <br />
                   <div className="main-page-banner-picture-article-inline color-white">
