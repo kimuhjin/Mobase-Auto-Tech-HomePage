@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import Header from "./Components/Header/Header.jsx";
 import MainPage from "./Pages/MainPage/MainPage.jsx";
 import Footer from "./Components/Footer/Footer.jsx";
+import ScrollToTop from "./Components/ScrollToTop/ScrollToTop.jsx";
 import smoothscroll from "smoothscroll-polyfill";
 import "./App.css";
 
@@ -19,6 +20,7 @@ function App() {
         setContent={setContent}
       />
       <Footer />
+      <ScrollToTop />
     </div>
   );
 }

@@ -26,6 +26,7 @@ import MobaseElect_logo from "../../asset/image/mobase-elec_logo.png";
 import mobase_history from "../../asset/image/mobase_history.png";
 function MainPage({ clicked, setClicked, content, setContent }) {
   const [MainBannerPicture, setMainBannerPicture] = useState(0);
+
   let mainBannerPictureArray = [
     { url: MainBannerPicture1 },
     { url: MainBannerPicture2 },
@@ -38,6 +39,7 @@ function MainPage({ clicked, setClicked, content, setContent }) {
     { id: 1, name: "Fan Motor", src: 4 },
   ];
   let productsCount = 0;
+  let picturesCount = 0;
   setTimeout(() => {
     productsCount++;
     if (MainBannerProducts === 1) {
@@ -45,6 +47,13 @@ function MainPage({ clicked, setClicked, content, setContent }) {
     }
     setMainBannerProducts(productsCount);
   }, 8000);
+  setTimeout(() => {
+    picturesCount++;
+    if (MainBannerPicture === 1) {
+      picturesCount = 0;
+    }
+    setMainBannerPicture(picturesCount);
+  }, 16000);
   function handleScrollTo(e) {
     setClicked(e.target.id);
     const locationName = `${e.target.id}-section`;
@@ -118,7 +127,7 @@ function MainPage({ clicked, setClicked, content, setContent }) {
               </>
             )}
           </div>
-          <div className="picture-dot-container">
+          {/* <div className="picture-dot-container">
             {mainBannerPictureArray.map((data, index) => {
               return (
                 <div
@@ -134,7 +143,7 @@ function MainPage({ clicked, setClicked, content, setContent }) {
                 ></div>
               );
             })}
-          </div>
+          </div> */}
           <div className="main-page-menu-container">
             <div className="main-page-menu">
               <div className="main-page-menu-title">제품소개</div>

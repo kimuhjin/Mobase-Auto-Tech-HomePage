@@ -1,5 +1,5 @@
 import "./Recruit.css";
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import { AiOutlineRight, AiFillTrophy } from "react-icons/ai";
 import { BiRun } from "react-icons/bi";
 import {
@@ -33,20 +33,33 @@ import {
 
 function Recruit() {
   const [content, setContent] = useState(1);
+  const getRecruitList = async () => {
+    fetch(
+      "https://www.googleapis.com/drive/v2/files/1wwPOS6jUtqThNXjm0sdGQKGk98Tu0tvD?alt=media&key=AIzaSyBY4EHGz4ZJ7peQb9YP-nzu8VmIaIF3zVw"
+      //  "https://drive.google.com/file/d/1wwPOS6jUtqThNXjm0sdGQKGk98Tu0tvD/export?format=txt"
+    ).then((res) => {
+      console.log(res);
+    });
+  };
+  useEffect(() => {
+    getRecruitList();
+  }, []);
   const recruitList = [
     {
       id: 1,
-      title: "2021년 신입사원 채용 (설비관리, 회계부문)",
-      startDate: "2021.05.21",
-      endDate: "2021.05.29",
-      link: "https://www.naver.com",
+      title: "[계약직] 생산팀 조립 / 검사 인원 구인",
+      startDate: "2021.03.29",
+      endDate: "2021.05.28",
+      link:
+        "https://www.saramin.co.kr/zf_user/jobs/relay/view?isMypage=no&rec_idx=40254599&recommend_ids=eJxNkMsVw0AIA6vJXeK7OqcQ999F%2FGxn8XEYHggCjtDCkcpPf%2BOFR1wFUyRj%2B8G%2Fxwqrs1APJrM3gg73se218mWLtLGnRmx08sZ7M9NWjTVmbXSJwdZMdrRrrAl6oZt6MrOtY1I5lpbmYosWphlZNjFQ6dc%2F6gegaUfp&view_type=list&gz=1&t_ref_content=ing_recruit&t_ref=company_info_view#seq=0",
     },
     {
       id: 2,
-      title: "2021년 경력사원 채용 (설비관리, 회계부문)",
-      startDate: "2021.05.29",
-      endDate: "2021.06.29",
-      link: "https://www.daum.net",
+      title: "[계약직] 조립팀 하네스 납땜 인원 구인",
+      startDate: "2021.05.14",
+      endDate: "2021.07.13",
+      link:
+        "https://www.saramin.co.kr/zf_user/jobs/relay/view?isMypage=no&rec_idx=40247579&recommend_ids=eJxtz7kRQyEMRdFqnGuXXuxC6L8L4zFfKHB4uBoERgIj5uXwV75tcNk5UHiN%2FvDppYG4vdkdWXl7Irn%2BsMe5yG%2B3CtBKix%2BlUmuQLW1Qae9uqphkk7g8sW8%2BhEf6oaJKhbirIFhl%2FCrgOl4dYuORezrHXoHs4SZXFr78AD4eT80%3D&view_type=list&gz=1&t_ref_content=ing_recruit&t_ref=company_info_view#seq=0",
     },
   ];
   return (

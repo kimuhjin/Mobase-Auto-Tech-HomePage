@@ -2,6 +2,9 @@
   "name": "mobase-auto-tech-homepage",
   "version": "0.1.0",
   "private": true,
+  
+    "proxy": "https://www.googleapis.com",
+
   "homepage": "https://kimuhjin.github.io/Mobase-Auto-Tech-HomePage/",
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.10",
