@@ -147,6 +147,8 @@
 .recruit-infomation-table-top-1 {
   width: 420px;
   text-decoration: underline;
+  text-underline-position: under;
+  text-decoration-color: #363686;
 }
 .recruit-infomation-table-top-2 {
   width: 150px;
