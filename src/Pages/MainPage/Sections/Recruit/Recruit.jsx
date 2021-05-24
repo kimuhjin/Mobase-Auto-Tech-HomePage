@@ -33,17 +33,17 @@ import {
 
 function Recruit() {
   const [content, setContent] = useState(1);
-  const getRecruitList = async () => {
-    fetch(
-      "https://www.googleapis.com/drive/v2/files/1wwPOS6jUtqThNXjm0sdGQKGk98Tu0tvD?alt=media&key=AIzaSyBY4EHGz4ZJ7peQb9YP-nzu8VmIaIF3zVw"
-      //  "https://drive.google.com/file/d/1wwPOS6jUtqThNXjm0sdGQKGk98Tu0tvD/export?format=txt"
-    ).then((res) => {
-      console.log(res);
-    });
-  };
-  useEffect(() => {
-    getRecruitList();
-  }, []);
+  // const getRecruitList = async () => {
+  //   fetch(
+  //     "https://www.googleapis.com/drive/v2/files/1wwPOS6jUtqThNXjm0sdGQKGk98Tu0tvD?alt=media&key=AIzaSyBY4EHGz4ZJ7peQb9YP-nzu8VmIaIF3zVw"
+  //     //  "https://drive.google.com/file/d/1wwPOS6jUtqThNXjm0sdGQKGk98Tu0tvD/export?format=txt"
+  //   ).then((res) => {
+  //     console.log(res);
+  //   });
+  // };
+  // useEffect(() => {
+  //   getRecruitList();
+  // }, []);
   const recruitList = [
     {
       id: 1,
