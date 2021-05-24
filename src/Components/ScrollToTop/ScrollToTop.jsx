@@ -1,5 +1,5 @@
 import "./ScrollToTop.css";
-import { AiOutlineToTop } from "react-icons/ai";
+import { GoHome } from "react-icons/go";
 function ScrollToTop() {
   return (
     <div
@@ -8,7 +8,7 @@ function ScrollToTop() {
         window.scrollTo({ top: 0, behavior: "smooth" });
       }}
     >
-      <AiOutlineToTop className="scroll-to-top-icon" />
+      <GoHome className="scroll-to-top-icon" />
     </div>
   );
 }
