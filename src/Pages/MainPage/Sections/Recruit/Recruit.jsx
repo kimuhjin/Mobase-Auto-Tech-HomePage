@@ -130,7 +130,7 @@ function Recruit() {
                   return (
                     <div className="recruit-infomation-table-body">
                       <a
-                        className="recruit-infomation-table-body-title recruit-infomation-table-top-1"
+                        className="recruit-infomation-table-body-title recruit-infomation-table-top-1 table-body-text"
                         href={data.link}
                         target="_blank"
                       >
