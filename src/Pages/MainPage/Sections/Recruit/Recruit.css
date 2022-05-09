@@ -84,20 +84,25 @@
   color: #363686;
   font-weight: bold;
 }
-
+.recruit-link-wrapper {
+  margin-top: 32px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
 .recruit-email-btn {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 160px;
-  height: 36px;
+  width: 200px;
+  height: 48px;
   border: 2px solid #363686;
   border-radius: 4px;
   box-sizing: border-box;
   font-size: 16px;
   color: #363686;
   font-weight: bold;
-  margin-bottom: 35px;
   text-decoration: none;
 }
 .recruit-email-btn:hover {
@@ -145,7 +150,11 @@
 }
 
 .recruit-infomation-table-top-1 {
-  width: 420px;
+  width: 100%;
+  padding: 10px 20px;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: flex-start;
 }
 .table-body-text {
   text-decoration: underline;
