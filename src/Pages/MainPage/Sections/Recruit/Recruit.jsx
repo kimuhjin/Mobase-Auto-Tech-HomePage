@@ -123,21 +123,27 @@ function Recruit() {
                 <a
                   href='https://www.work.go.kr/wnSearch/unifSrch.do?regDateStdt=&regDateEndt=&colName=&srchDateSelected=all&sortField=RANK&sortOrderBy=DESC&searchDateInfo=&temp=&pageIndex=1&tabName=All&dtlSearch=&query=모베이스오토테크%28주%29&radio_period=on&srchStdt=&srchEndt=&reQuery=&agreeQuery=&prikeyQuery=&exceptQuery='
                   target='_blank'
-                  className='recruit-email-btn'
+                  className='recruit-link-btn'
                 >
                   워크넷 바로가기
                 </a>
                 <a
                   href='https://www.saramin.co.kr/zf_user/company-info/view-inner-recruit?csn=Tjh1NG9vMjBNUHVrTUk3R3V3VHBCdz09'
                   target='_blank'
-                  className='recruit-email-btn'
+                  className='recruit-link-btn'
                 >
                   사람인 바로가기
                 </a>
-
+                <a
+                  href='https://www.jobkorea.co.kr/company/44759938/Recruit'
+                  target='_blank'
+                  className='recruit-link-btn'
+                >
+                  잡코리아 바로가기
+                </a>
                 <a
                   href='mailto:recruit@mobase-autotech.com?subject=모베이스 오토테크 지원&body=모베이스 오토테크 지원 서류입니다.'
-                  className='recruit-email-btn'
+                  className='recruit-link-btn'
                 >
                   이메일 지원하기
                 </a>

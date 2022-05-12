@@ -91,11 +91,11 @@
   justify-content: space-between;
   align-items: center;
 }
-.recruit-email-btn {
+.recruit-link-btn {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 200px;
+  width: 160px;
   height: 48px;
   border: 2px solid #363686;
   border-radius: 4px;
@@ -105,7 +105,7 @@
   font-weight: bold;
   text-decoration: none;
 }
-.recruit-email-btn:hover {
+.recruit-link-btn:hover {
   cursor: pointer;
   background-color: #363686;
   color: white;
