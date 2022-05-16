@@ -247,7 +247,7 @@ function Recruit() {
                   <div className='recruit-infomation-title'>기타사항</div>
                 </div>
                 <div className='recruit-infomation-flex-article'>
-                  문의처 : 경영지원팀 ☎ 032-500-5874
+                  문의처 : 경영지원팀 ☎ 032-500-5825
                 </div>
               </div>
             </div>
