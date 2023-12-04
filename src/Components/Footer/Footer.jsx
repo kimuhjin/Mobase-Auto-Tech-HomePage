@@ -8,7 +8,7 @@ function Footer() {
         모베이스오토테크 주식회사
       </div>
       <div className="footer-description">
-        상호 : 모베이스오토테크(주) &nbsp;&nbsp;대표 : 이상경
+        상호 : 모베이스오토테크(주) &nbsp;&nbsp;대표 : 윤병관
         &nbsp;&nbsp;사업자등록번호 : 131-81-95154
         <br />
         경기 화성시 동탄첨단산업1로73 &nbsp;&nbsp;TEL:032-500-5825

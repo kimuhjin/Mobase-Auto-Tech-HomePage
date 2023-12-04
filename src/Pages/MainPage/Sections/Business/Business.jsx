@@ -32,7 +32,7 @@ function Business() {
             <div className="business-ethics-sub-title">
               안녕하십니까?
               <br />
-              모베이스 오토테크 대표이사 이상경입니다.
+              모베이스 오토테크 대표이사 윤병관입니다.
             </div>
             <div className="business-ethics-article">
               당사 경영진은 윤리경영의 중요성을 실감하고 모든 구성원이 공감하며
